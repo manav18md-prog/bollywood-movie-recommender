@@ -16,29 +16,77 @@ const questions = [
   ]}
 ];
 
+// Curated Hindi/Bollywood catalogue. Metadata is hand-tagged for recommendation purposes.
 const movies = [
-  { title: 'Jab We Met', year: 2007, runtime: 138, genres: ['Romance','Comedy','Feel-good'], mood: ['Romance','Comedy','Feel-good'], company: ['My partner ❤️','Friends 🍿','Just me'], era: '2000s', style: ['Blockbuster','Cult favourite'], tags: ['Rom-com','Feel-good','Cult classic'], desc: 'A joyful, endlessly quotable journey about two strangers who change each other’s lives.', trailer: 'https://www.youtube.com/results?search_query=Jab+We+Met+official+trailer' },
-  { title: 'Zindagi Na Milegi Dobara', year: 2011, runtime: 155, genres: ['Drama','Comedy','Feel-good'], mood: ['Comedy','Drama','Feel-good'], company: ['Friends 🍿','My partner ❤️','Just me'], era: '2010s', style: ['Blockbuster','Cult favourite'], tags: ['Friendship','Adventure','Feel-good'], desc: 'Three friends, one road trip and a reminder to actually live the life you have.', trailer: 'https://www.youtube.com/results?search_query=Zindagi+Na+Milegi+Dobara+official+trailer' },
-  { title: 'Andhadhun', year: 2018, runtime: 139, genres: ['Thriller','Drama','Comedy'], mood: ['Thriller','Drama','Comedy'], company: ['Just me','Friends 🍿'], era: '2010s', style: ['Underrated gem','Cult favourite'], tags: ['Dark comedy','Twisty','Suspense'], desc: 'A blind pianist gets pulled into a murder mystery where absolutely nothing is what it seems.', trailer: 'https://www.youtube.com/results?search_query=Andhadhun+official+trailer' },
-  { title: '3 Idiots', year: 2009, runtime: 171, genres: ['Comedy','Drama','Feel-good'], mood: ['Comedy','Drama','Feel-good'], company: ['Friends 🍿','Family 👨‍👩‍👧','Just me'], era: '2000s', style: ['Blockbuster','Cult favourite'], tags: ['Friendship','Comedy','Inspirational'], desc: 'Three college friends challenge the pressure to follow the crowd and find their own definition of success.', trailer: 'https://www.youtube.com/results?search_query=3+Idiots+official+trailer' },
-  { title: 'Tamasha', year: 2015, runtime: 139, genres: ['Romance','Drama'], mood: ['Romance','Drama'], company: ['My partner ❤️','Just me'], era: '2010s', style: ['Cult favourite','Underrated gem'], tags: ['Romance','Self-discovery','Emotional'], desc: 'A deeply emotional love story about identity, expectations and finding the courage to be yourself.', trailer: 'https://www.youtube.com/results?search_query=Tamasha+official+trailer' },
-  { title: 'Queen', year: 2014, runtime: 146, genres: ['Comedy','Drama','Feel-good'], mood: ['Comedy','Drama','Feel-good'], company: ['Just me','Friends 🍿'], era: '2010s', style: ['Blockbuster','Underrated gem'], tags: ['Empowering','Comedy','Travel'], desc: 'After a cancelled wedding, a shy woman takes the honeymoon trip alone and discovers herself.', trailer: 'https://www.youtube.com/results?search_query=Queen+2014+official+trailer' },
-  { title: 'Drishyam', year: 2015, runtime: 163, genres: ['Thriller','Drama'], mood: ['Thriller','Drama'], company: ['Just me','Family 👨‍👩‍👧'], era: '2010s', style: ['Blockbuster'], tags: ['Thriller','Family','Mystery'], desc: 'A family man will do anything to protect his loved ones after an unexpected crime changes everything.', trailer: 'https://www.youtube.com/results?search_query=Drishyam+2015+official+trailer' },
-  { title: '12th Fail', year: 2023, runtime: 147, genres: ['Drama','Feel-good'], mood: ['Drama','Feel-good'], company: ['Just me','Family 👨‍👩‍👧','Friends 🍿'], era: 'Recent', style: ['True story','Underrated gem'], tags: ['True story','Inspiring','Human'], desc: 'A determined young man rises from hardship to pursue his dream of becoming a civil servant.', trailer: 'https://www.youtube.com/results?search_query=12th+Fail+official+trailer' },
-  { title: 'Gully Boy', year: 2019, runtime: 154, genres: ['Drama','Romance'], mood: ['Drama','Romance'], company: ['Just me','Friends 🍿','My partner ❤️'], era: '2010s', style: ['Blockbuster','True story'], tags: ['Music','Ambition','Mumbai'], desc: 'A young man from Mumbai’s streets finds his voice through hip-hop and refuses to let his circumstances define him.', trailer: 'https://www.youtube.com/results?search_query=Gully+Boy+official+trailer' },
-  { title: 'Lagaan', year: 2001, runtime: 224, genres: ['Drama','Feel-good'], mood: ['Drama','Feel-good'], company: ['Family 👨‍👩‍👧','Friends 🍿'], era: '2000s', style: ['Blockbuster','Cult favourite'], tags: ['Period','Sports','Epic'], desc: 'A village stakes everything on a cricket match against their colonial rulers.', trailer: 'https://www.youtube.com/results?search_query=Lagaan+official+trailer' },
-  { title: 'Barfi!', year: 2012, runtime: 151, genres: ['Romance','Comedy','Drama'], mood: ['Romance','Comedy','Drama','Feel-good'], company: ['My partner ❤️','Family 👨‍👩‍👧','Just me'], era: '2010s', style: ['Cult favourite','Underrated gem'], tags: ['Romance','Heartwarming','Classic'], desc: 'A charming, unconventional love story told with warmth, humour and a huge heart.', trailer: 'https://www.youtube.com/results?search_query=Barfi+official+trailer' },
-  { title: 'Stree', year: 2018, runtime: 128, genres: ['Comedy','Horror'], mood: ['Comedy','Thriller'], company: ['Friends 🍿','Just me'], era: '2010s', style: ['Blockbuster','Cult favourite'], tags: ['Horror comedy','Fun','Spooky'], desc: 'A small-town legend about a mysterious woman becomes a hilarious supernatural adventure.', trailer: 'https://www.youtube.com/results?search_query=Stree+2018+official+trailer' },
-  { title: 'Dangal', year: 2016, runtime: 161, genres: ['Drama','Action'], mood: ['Drama','Action','Feel-good'], company: ['Family 👨‍👩‍👧','Friends 🍿','Just me'], era: '2010s', style: ['Blockbuster','True story'], tags: ['Sports','True story','Family'], desc: 'An ambitious father trains his daughters to become champions against every expectation.', trailer: 'https://www.youtube.com/results?search_query=Dangal+official+trailer' },
-  { title: 'Dil Chahta Hai', year: 2001, runtime: 183, genres: ['Comedy','Drama'], mood: ['Comedy','Drama','Feel-good'], company: ['Friends 🍿','Just me'], era: '2000s', style: ['Cult favourite','Blockbuster'], tags: ['Friendship','Road trip','Classic'], desc: 'Three best friends navigate love, adulthood and a life-changing trip to Goa.', trailer: 'https://www.youtube.com/results?search_query=Dil+Chahta+Hai+official+trailer' },
-  { title: 'Om Shanti Om', year: 2007, runtime: 162, genres: ['Romance','Comedy','Drama'], mood: ['Romance','Comedy','Feel-good'], company: ['My partner ❤️','Friends 🍿','Family 👨‍👩‍👧'], era: '2000s', style: ['Blockbuster'], tags: ['Masala','Romance','Songs'], desc: 'A glamorous Bollywood reincarnation saga packed with romance, revenge, music and movie magic.', trailer: 'https://www.youtube.com/results?search_query=Om+Shanti+Om+official+trailer' },
-  { title: 'Kahaani', year: 2012, runtime: 122, genres: ['Thriller','Drama'], mood: ['Thriller','Drama'], company: ['Just me','Friends 🍿'], era: '2010s', style: ['Underrated gem'], tags: ['Mystery','Kolkata','Twist'], desc: 'A pregnant woman arrives in Kolkata searching for her missing husband, and the mystery keeps deepening.', trailer: 'https://www.youtube.com/results?search_query=Kahaani+official+trailer' }
-];
+  ['Jab We Met',2007,138,['Romance','Comedy','Feel-good'],['Romance','Comedy','Feel-good'],['My partner ❤️','Friends 🍿','Just me'],'2000s',['Blockbuster','Cult favourite'],['Rom-com','Feel-good','Cult classic'],'Joyful, endlessly quotable and ideal when you want romance with a huge dose of personality.'],
+  ['Dilwale Dulhania Le Jayenge',1995,189,['Romance','Drama','Feel-good'],['Romance','Feel-good'],['My partner ❤️','Family 👨‍👩‍👧'],'Classic',['Blockbuster','Cult favourite'],['Romance','Classic','Family'],'A defining Bollywood romance about love, family and choosing your own future.'],
+  ['Kuch Kuch Hota Hai',1998,185,['Romance','Comedy','Drama'],['Romance','Comedy'],['My partner ❤️','Family 👨‍👩‍👧','Friends 🍿'],'Classic',['Blockbuster','Cult favourite'],['Romance','Friendship','Classic'],'A nostalgic love triangle full of friendship, songs and peak 90s Bollywood emotion.'],
+  ['Kabhi Khushi Kabhie Gham',2001,210,['Romance','Drama','Feel-good'],['Romance','Drama','Feel-good'],['Family 👨‍👩‍👧','My partner ❤️'],'2000s',['Blockbuster','Cult favourite'],['Family','Romance','Epic'],'Big emotions, family drama, iconic performances and an unforgettable soundtrack.'],
+  ['Kal Ho Naa Ho',2003,186,['Romance','Comedy','Drama'],['Romance','Comedy','Drama'],['My partner ❤️','Friends 🍿','Family 👨‍👩‍👧'],'2000s',['Blockbuster','Cult favourite'],['Romance','Friendship','Emotional'],'A funny, romantic and deeply emotional story about friendship and living in the moment.'],
+  ['Veer-Zaara',2004,192,['Romance','Drama'],['Romance','Drama'],['My partner ❤️','Family 👨‍👩‍👧'],'2000s',['Blockbuster','Cult favourite'],['Epic romance','Music','Emotional'],'A sweeping cross-border love story with classic Bollywood scale and emotion.'],
+  ['Om Shanti Om',2007,162,['Romance','Comedy','Drama'],['Romance','Comedy','Feel-good'],['My partner ❤️','Friends 🍿','Family 👨‍👩‍👧'],'2000s',['Blockbuster'],['Masala','Romance','Songs'],'A glamorous reincarnation saga packed with romance, revenge, music and movie magic.'],
+  ['Rockstar',2011,159,['Romance','Drama','Music'],['Romance','Drama'],['My partner ❤️','Just me'],'2010s',['Blockbuster','Cult favourite'],['Music','Romance','Intense'],'A passionate musician story for nights when you want love, ambition and emotional intensity.'],
+  ['Tamasha',2015,139,['Romance','Drama'],['Romance','Drama'],['My partner ❤️','Just me'],'2010s',['Cult favourite','Underrated gem'],['Romance','Self-discovery','Emotional'],'A deeply emotional story about identity, expectations and finding the courage to be yourself.'],
+  ['Barfi!',2012,151,['Romance','Comedy','Drama'],['Romance','Comedy','Drama','Feel-good'],['My partner ❤️','Family 👨‍👩‍👧','Just me'],'2010s',['Cult favourite','Underrated gem'],['Romance','Heartwarming','Classic'],'A charming, unconventional love story told with warmth, humour and a huge heart.'],
+  ['Yeh Jawaani Hai Deewani',2013,160,['Romance','Comedy','Drama'],['Romance','Comedy','Feel-good'],['My partner ❤️','Friends 🍿'],'2010s',['Blockbuster','Cult favourite'],['Friendship','Travel','Romance'],'A glossy coming-of-age favourite about friendship, travel, ambition and love.'],
+  ['2 States',2014,149,['Romance','Comedy','Drama'],['Romance','Comedy'],['My partner ❤️','Friends 🍿','Family 👨‍👩‍👧'],'2010s',['Blockbuster','Book adaptation'],['Romance','Family','Comedy'],'A modern romance that turns cultural differences and family expectations into heartfelt comedy.'],
+  ['Hasee Toh Phasee',2014,141,['Romance','Comedy'],['Romance','Comedy','Feel-good'],['My partner ❤️','Just me'],'2010s',['Underrated gem'],['Rom-com','Quirky','Feel-good'],'A quirky, warm rom-com for when you want something lighter and less predictable.'],
+  ['Bareilly Ki Barfi',2017,116,['Romance','Comedy'],['Romance','Comedy','Feel-good'],['My partner ❤️','Friends 🍿','Family 👨‍👩‍👧'],'2010s',['Underrated gem'],['Rom-com','Small town','Fun'],'A playful small-town romantic comedy with a breezy runtime and lots of charm.'],
+  ['Queen',2014,146,['Comedy','Drama','Feel-good'],['Comedy','Drama','Feel-good'],['Just me','Friends 🍿'],'2010s',['Blockbuster','Underrated gem'],['Empowering','Comedy','Travel'],'After a cancelled wedding, a shy woman takes the honeymoon trip alone and discovers herself.'],
+  ['Zindagi Na Milegi Dobara',2011,155,['Drama','Comedy','Feel-good'],['Comedy','Drama','Feel-good'],['Friends 🍿','My partner ❤️','Just me'],'2010s',['Blockbuster','Cult favourite'],['Friendship','Adventure','Feel-good'],'Three friends, one road trip and a reminder to actually live the life you have.'],
+  ['3 Idiots',2009,171,['Comedy','Drama','Feel-good'],['Comedy','Drama','Feel-good'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'2000s',['Blockbuster','Cult favourite'],['Friendship','Comedy','Inspirational'],'Three college friends challenge the pressure to follow the crowd and find their own definition of success.'],
+  ['Munna Bhai M.B.B.S.',2003,156,['Comedy','Drama','Feel-good'],['Comedy','Feel-good'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'2000s',['Blockbuster','Cult favourite'],['Comedy','Heartwarming','Classic'],'A lovable gangster tries to become a doctor and learns that kindness can be its own superpower.'],
+  ['Lage Raho Munna Bhai',2006,144,['Comedy','Drama','Feel-good'],['Comedy','Feel-good','Drama'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'2000s',['Blockbuster','Cult favourite'],['Comedy','Gandhi','Feel-good'],'A charming comedy that turns an unusual friendship with Gandhi into a lesson in everyday kindness.'],
+  ['Hera Pheri',2000,156,['Comedy'],['Comedy'],['Friends 🍿','Just me'],'2000s',['Cult favourite','Blockbuster'],['Comedy','Chaos','Cult classic'],'Three broke men, one chaotic scheme and some of Bollywood’s most rewatchable comedy.'],
+  ['Andaz Apna Apna',1994,160,['Comedy','Romance'],['Comedy','Feel-good'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'Classic',['Cult favourite'],['Comedy','Cult classic','Quotable'],'A gloriously silly cult comedy that rewards repeat viewing and group movie nights.'],
+  ['Gol Maal',1979,116,['Comedy'],['Comedy','Feel-good'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'Classic',['Cult favourite'],['Comedy','Classic','Shorter watch'],'A timeless Hrishikesh Mukherjee comedy built around mistaken identity and effortless charm.'],
+  ['Khosla Ka Ghosla!',2006,135,['Comedy','Drama'],['Comedy','Feel-good'],['Friends 🍿','Family 👨‍👩‍👧','Just me'],'2000s',['Underrated gem','Cult favourite'],['Comedy','Middle class','Clever'],'A middle-class family fights back against a property scam with wit rather than muscle.'],
+  ['Vicky Donor',2012,126,['Comedy','Romance'],['Comedy','Romance','Feel-good'],['My partner ❤️','Friends 🍿','Just me'],'2010s',['Underrated gem','Blockbuster'],['Rom-com','Offbeat','Fun'],'A fresh, cheeky rom-com that mixes an unusual premise with genuine warmth.'],
+  ['Stree',2018,128,['Comedy','Horror'],['Comedy','Thriller'],['Friends 🍿','Just me'],'2010s',['Blockbuster','Cult favourite'],['Horror comedy','Fun','Spooky'],'A small-town legend about a mysterious woman becomes a hilarious supernatural adventure.'],
+  ['Bhool Bhulaiyaa',2007,159,['Comedy','Horror','Thriller'],['Thriller','Comedy'],['Friends 🍿','Just me','Family 👨‍👩‍👧'],'2000s',['Blockbuster','Cult favourite'],['Horror comedy','Mystery','Classic'],'A spooky psychological mystery with comedy, memorable characters and a strong twist.'],
+  ['Andhadhun',2018,139,['Thriller','Drama','Comedy'],['Thriller','Drama','Comedy'],['Just me','Friends 🍿'],'2010s',['Underrated gem','Cult favourite'],['Dark comedy','Twisty','Suspense'],'A blind pianist gets pulled into a murder mystery where absolutely nothing is what it seems.'],
+  ['Drishyam',2015,163,['Thriller','Drama'],['Thriller','Drama'],['Just me','Family 👨‍👩‍👧'],'2010s',['Blockbuster'],['Thriller','Family','Mystery'],'A family man will do anything to protect his loved ones after an unexpected crime changes everything.'],
+  ['Kahaani',2012,122,['Thriller','Drama'],['Thriller','Drama'],['Just me','Friends 🍿'],'2010s',['Underrated gem'],['Mystery','Kolkata','Twist'],'A pregnant woman searches for her missing husband in Kolkata as the mystery keeps deepening.'],
+  ['Talvar',2015,132,['Thriller','Drama'],['Thriller','Drama'],['Just me'],'2010s',['True story','Underrated gem'],['Investigation','True story','Serious'],'A gripping investigation drama inspired by a notorious real-life case.'],
+  ['Special 26',2013,144,['Thriller','Drama'],['Thriller','Drama'],['Just me','Friends 🍿'],'2010s',['Blockbuster','Underrated gem'],['Heist','True events','Smart'],'A clever con story about a group posing as officials to pull off audacious robberies.'],
+  ['A Wednesday!',2008,104,['Thriller','Drama'],['Thriller','Drama'],['Just me'],'2000s',['Cult favourite','Underrated gem'],['Short','Tense','Political thriller'],'A tightly paced thriller built around one ordinary man making an extraordinary demand.'],
+  ['Gangs of Wasseypur',2012,321,['Drama','Action'],['Drama','Action'],['Just me','Friends 🍿'],'2010s',['Cult favourite'],['Crime saga','Epic','Dark'],'A sprawling crime saga for viewers who want something intense, violent and unapologetically ambitious.'],
+  ['Gully Boy',2019,154,['Drama','Romance','Music'],['Drama','Romance'],['Just me','Friends 🍿','My partner ❤️'],'2010s',['Blockbuster','True story'],['Music','Ambition','Mumbai'],'A young man from Mumbai’s streets finds his voice through hip-hop and refuses to be defined by his circumstances.'],
+  ['Dangal',2016,161,['Drama','Action','Feel-good'],['Drama','Action','Feel-good'],['Family 👨‍👩‍👧','Friends 🍿','Just me'],'2010s',['Blockbuster','True story'],['Sports','True story','Family'],'An ambitious father trains his daughters to become champions against every expectation.'],
+  ['Chak De! India',2007,153,['Drama','Action','Feel-good'],['Drama','Action','Feel-good'],['Family 👨‍👩‍👧','Friends 🍿','Just me'],'2000s',['Blockbuster','Cult favourite'],['Sports','Teamwork','Inspirational'],'A disgraced hockey coach builds an unlikely women’s team into contenders.'],
+  ['Lagaan',2001,224,['Drama','Feel-good'],['Drama','Feel-good'],['Family 👨‍👩‍👧','Friends 🍿'],'2000s',['Blockbuster','Cult favourite'],['Period','Sports','Epic'],'A village stakes everything on a cricket match against their colonial rulers.'],
+  ['Swades',2004,189,['Drama','Feel-good'],['Drama','Feel-good'],['Just me','Family 👨‍👩‍👧'],'2000s',['Cult favourite','Underrated gem'],['Social','Inspirational','Classic'],'A NASA engineer returns to India and reconnects with a village he thought he had left behind.'],
+  ['Rang De Basanti',2006,167,['Drama','Action','Feel-good'],['Drama','Action','Feel-good'],['Friends 🍿','Just me'],'2000s',['Blockbuster','Cult favourite'],['Friendship','Patriotism','Youth'],'A group of friends find their carefree lives transformed by a documentary and a sense of purpose.'],
+  ['Rock On!!',2008,145,['Drama','Music'],['Drama','Feel-good'],['Friends 🍿','Just me'],'2000s',['Cult favourite','Underrated gem'],['Music','Friendship','Comeback'],'Four friends reunite with music and confront the lives they chose after their band broke apart.'],
+  ['Udaan',2010,138,['Drama'],['Drama'],['Just me'],'2010s',['Underrated gem','Cult favourite'],['Coming of age','Emotional','Indie'],'A young man struggles against a controlling father while trying to build a life of his own.'],
+  ['Masaan',2015,109,['Drama','Romance'],['Drama','Romance'],['Just me','My partner ❤️'],'2010s',['Underrated gem'],['Human','Emotional','Short'],'A moving, intimate drama about grief, love, social pressure and new beginnings.'],
+  ['12th Fail',2023,147,['Drama','Feel-good'],['Drama','Feel-good'],['Just me','Family 👨‍👩‍👧','Friends 🍿'],'Recent',['True story','Underrated gem'],['True story','Inspiring','Human'],'A determined young man rises from hardship to pursue his dream of becoming a civil servant.'],
+  ['Laapataa Ladies',2024,124,['Comedy','Drama','Feel-good'],['Comedy','Feel-good','Drama'],['Family 👨‍👩‍👧','Friends 🍿','My partner ❤️'],'Recent',['Underrated gem'],['Comedy','Social','Warm'],'A gentle, funny story about two brides, mistaken identities and unexpected independence.'],
+  ['Stree 2',2024,149,['Comedy','Horror','Action'],['Comedy','Thriller','Action'],['Friends 🍿','Family 👨‍👩‍👧'],'Recent',['Blockbuster'],['Horror comedy','Franchise','Fun'],'A bigger supernatural comedy adventure when you want scares without taking them too seriously.'],
+  ['Article 15',2019,130,['Drama','Thriller'],['Drama','Thriller'],['Just me'],'2010s',['True story','Underrated gem'],['Social','Investigation','Serious'],'A police investigation becomes a confrontation with entrenched social inequality.'],
+  ['Piku',2015,123,['Comedy','Drama'],['Comedy','Drama','Feel-good'],['Family 👨‍👩‍👧','My partner ❤️','Just me'],'2010s',['Underrated gem','Cult favourite'],['Family','Road trip','Warm'],'A prickly father and daughter take a road trip that becomes unexpectedly affectionate and funny.'],
+  ['English Vinglish',2012,134,['Drama','Comedy','Feel-good'],['Drama','Feel-good'],['Family 👨‍👩‍👧','Just me'],'2010s',['Underrated gem'],['Family','Confidence','Warm'],'A homemaker quietly rebuilds her confidence when she finds herself outside her comfort zone.'],
+  ['Taare Zameen Par',2007,165,['Drama','Feel-good'],['Drama','Feel-good'],['Family 👨‍👩‍👧','Just me'],'2000s',['Blockbuster','Cult favourite'],['Family','School','Emotional'],'A teacher helps a misunderstood child discover that his difference is also his strength.'],
+  ['Paan Singh Tomar',2012,135,['Drama','Action'],['Drama','Action'],['Just me'],'2010s',['True story','Underrated gem'],['True story','Sports','Intense'],'The remarkable true story of an athlete whose life takes a very different turn.'],
+  ['Shahid',2012,129,['Drama'],['Drama'],['Just me'],'2010s',['True story','Underrated gem'],['True story','Legal','Serious'],'A powerful biographical drama about lawyer and human-rights activist Shahid Azmi.'],
+  ['Maqbool',2003,132,['Drama','Thriller'],['Drama','Thriller'],['Just me'],'2000s',['Cult favourite','Underrated gem'],['Crime','Shakespeare','Dark'],'A dark Mumbai crime tragedy inspired by Shakespeare’s Macbeth.'],
+  ['Haider',2014,160,['Drama','Thriller'],['Drama','Thriller'],['Just me'],'2010s',['Cult favourite'],['Shakespeare','Political','Intense'],'A haunting adaptation of Hamlet set against conflict in Kashmir.'],
+  ['Omkara',2006,155,['Drama','Crime'],['Drama','Thriller'],['Just me'],'2000s',['Cult favourite','Underrated gem'],['Shakespeare','Crime','Dark'],'A gritty North Indian crime drama inspired by Othello.'],
+  ['Wake Up Sid',2009,138,['Comedy','Drama','Feel-good'],['Comedy','Drama','Feel-good'],['Just me','Friends 🍿','My partner ❤️'],'2000s',['Cult favourite','Underrated gem'],['Coming of age','Mumbai','Feel-good'],'A directionless college graduate slowly figures out what he actually wants from life.'],
+  ['Delhi Belly',2011,103,['Comedy','Thriller'],['Comedy','Thriller'],['Friends 🍿','Just me'],'2010s',['Cult favourite'],['Dark comedy','Fast','Chaotic'],'A fast, irreverent comedy-thriller for a group that wants something outrageous and quick.'],
+  ['Bhaag Milkha Bhaag',2013,189,['Drama','Action'],['Drama','Action','Feel-good'],['Family 👨‍👩‍👧','Just me'],'2010s',['True story','Blockbuster'],['Sports','True story','Inspirational'],'The extraordinary journey of athlete Milkha Singh from trauma to international glory.'],
+  ['Neerja',2016,122,['Drama','Thriller'],['Drama','Thriller'],['Just me','Family 👨‍👩‍👧'],'2010s',['True story','Underrated gem'],['True story','Courage','Tense'],'A brave flight attendant puts others before herself during a terrifying hijacking.'],
+  ['Raazi',2018,138,['Drama','Thriller'],['Drama','Thriller'],['Just me','My partner ❤️'],'2010s',['True story','Blockbuster'],['Spy','True story','Emotional'],'A young woman becomes an undercover operative during a dangerous period of India-Pakistan tension.']
+].map(([title,year,runtime,genres,mood,company,era,style,tags,desc]) => ({
+  title, year, runtime, genres, mood, company, era, style, tags, desc,
+  trailer: `https://www.youtube.com/results?search_query=${encodeURIComponent(title + ' official trailer')}`
+}));
 
 let step = 0;
 let answers = {};
 let shown = [];
 const $ = id => document.getElementById(id);
+const clean = value => value.replace(/\s*[❤️🔥😂🎭💥☀️🍿👨‍👩‍👧]\s*/g, '').trim();
 
 function renderQuestion() {
   const q = questions[step];
@@ -58,38 +106,66 @@ function choose(value) {
   if (step < questions.length - 1) { step++; renderQuestion(); } else showResult();
 }
 
-function scoreMovie(movie) {
-  let score = 0;
-  if (answers.mood && movie.mood.includes(answers.mood.split(' ')[0])) score += 30;
-  if (answers.company && movie.company.includes(answers.company)) score += 18;
-  if (answers.era === 'Surprise me' || movie.era === answers.era) score += 15;
-  if (answers.style && answers.style !== 'No preference' && movie.style.includes(answers.style)) score += 18;
-  if (answers.runtime === 'Under 2 hours' && movie.runtime < 120) score += 12;
-  else if (answers.runtime === 'Around 2 hours' && movie.runtime >= 120 && movie.runtime <= 145) score += 12;
-  else if (answers.runtime === '2.5+ hours' && movie.runtime >= 150) score += 12;
-  else if (answers.runtime === 'No preference') score += 7;
-  return score + Math.random() * 5;
+function runtimeFit(runtime, preference) {
+  if (preference === 'No preference') return 1;
+  if (preference === 'Under 2 hours') return runtime < 120 ? 1 : Math.max(0, 1 - (runtime - 120) / 100);
+  if (preference === 'Around 2 hours') return Math.max(0, 1 - Math.abs(runtime - 130) / 75);
+  if (preference === '2.5+ hours') return runtime >= 150 ? 1 : Math.max(.1, runtime / 150);
+  return 0;
 }
 
-function getRecommendation() {
-  return movies.filter(m => !shown.includes(m.title)).map(movie => ({ movie, score: scoreMovie(movie) })).sort((a,b) => b.score - a.score)[0] || movies[Math.floor(Math.random()*movies.length)];
+function scoreMovie(movie) {
+  const weights = { mood: 0.34, company: 0.20, era: 0.14, style: 0.18, runtime: 0.10 };
+  const mood = clean(answers.mood || '');
+  const company = answers.company || '';
+  const era = answers.era || '';
+  const style = answers.style || '';
+  const runtime = answers.runtime || '';
+  let score = 0;
+  const reasons = [];
+
+  if (movie.mood.includes(mood)) { score += weights.mood; reasons.push(`matches your ${mood.toLowerCase()} mood`); }
+  if (movie.company.includes(company)) { score += weights.company; reasons.push('fits your viewing group'); }
+  if (era === 'Surprise me' || movie.era === era) { score += weights.era; if (era !== 'Surprise me') reasons.push(`from the ${era}`); }
+  if (style === 'No preference' || movie.style.includes(style)) { score += weights.style; if (style !== 'No preference') reasons.push(style.toLowerCase()); }
+  const rf = runtimeFit(movie.runtime, runtime);
+  score += weights.runtime * rf;
+  if (rf >= .85 && runtime !== 'No preference') reasons.push('fits your time window');
+
+  // Soft quality prior: prefer established, well-curated titles without making popularity dominate taste.
+  const qualityPrior = movie.style.includes('Blockbuster') ? .035 : movie.style.includes('Cult favourite') ? .03 : movie.style.includes('Underrated gem') ? .025 : .015;
+  score += qualityPrior;
+
+  // Penalise obvious mismatches instead of letting many weak matches sneak through.
+  if (company === 'Family 👨‍👩‍👧' && (movie.genres.includes('Crime') || movie.tags.includes('Dark'))) score -= .08;
+  if (runtime === 'Under 2 hours' && movie.runtime > 180) score -= .12;
+
+  return { movie, score, reasons };
+}
+
+function getRecommendations() {
+  const ranked = movies.filter(m => !shown.includes(m.title)).map(scoreMovie).sort((a,b) => b.score - a.score);
+  if (!ranked.length) return movies.map(scoreMovie).sort((a,b) => b.score - a.score);
+  // Add a tiny controlled diversity bonus so the next recommendation is not always the same archetype.
+  return ranked.map((item, index) => ({ ...item, finalScore: item.score - index * 0.0005 })).sort((a,b) => b.finalScore - a.finalScore);
 }
 
 function showResult() {
   $('quiz').classList.add('hidden');
   $('result').classList.remove('hidden');
-  renderResult(getRecommendation());
+  renderResult(getRecommendations()[0]);
   window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function renderResult(result) {
   const movie = result.movie || result;
   shown.push(movie.title);
-  const percent = Math.min(98, Math.max(74, Math.round(68 + (result.score || 20) / 1.7)));
-  $('matchBadge').textContent = `${percent}% match`;
+  const match = Math.round(Math.min(98, Math.max(72, result.score * 100)));
+  $('matchBadge').textContent = `${match}% match`;
   $('movieTitle').textContent = movie.title;
   $('movieMeta').textContent = `${movie.year}  ·  ${movie.runtime} min  ·  ${movie.genres.join(' · ')}`;
-  $('movieDescription').textContent = movie.desc;
+  const why = result.reasons?.length ? `Why this pick: ${result.reasons.slice(0,3).join(', ')}.` : 'Why this pick: it is a strong overall fit for your answers.';
+  $('movieDescription').textContent = `${movie.desc} ${why}`;
   $('movieTags').innerHTML = movie.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
   $('posterInitials').textContent = movie.title.split(/\s+/).slice(0,2).map(w => w[0]).join('');
   $('trailerBtn').href = movie.trailer;
@@ -97,5 +173,5 @@ function renderResult(result) {
 
 $('startBtn').addEventListener('click', () => { $('quiz-start').classList.add('hidden'); $('quiz').classList.remove('hidden'); renderQuestion(); window.scrollTo({top:0, behavior:'smooth'}); });
 $('backBtn').addEventListener('click', () => { if (step > 0) { step--; renderQuestion(); } });
-$('nextBtn').addEventListener('click', () => { renderResult(getRecommendation()); window.scrollTo({top:0, behavior:'smooth'}); });
+$('nextBtn').addEventListener('click', () => { const next = getRecommendations()[0]; if (next) { renderResult(next); window.scrollTo({top:0, behavior:'smooth'}); } });
 $('restartBtn').addEventListener('click', () => { step = 0; answers = {}; shown = []; $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); renderQuestion(); window.scrollTo({top:0, behavior:'smooth'}); });
