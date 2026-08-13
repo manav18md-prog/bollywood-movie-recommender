@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Find the right Bollywood movie for your mood, company and vibe." />
+  <title>FilmyForMe — Bollywood Movie Finder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="FilmyForMe home"><span>F</span> FilmyForMe</a>
+    <div class="header-note">Bollywood, picked for you.</div>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="quiz-start">
+      <p class="eyebrow">YOUR PERSONAL BOLLYWOOD GUIDE</p>
+      <h1>What should you<br /><em>watch tonight?</em></h1>
+      <p class="hero-copy">Answer a few quick questions. We'll cut through the endless scrolling and find one Bollywood movie that fits your mood.</p>
+      <button class="primary-btn" id="startBtn">Find my movie <span>→</span></button>
+    </section>
+
+    <section class="quiz-section hidden" id="quiz" aria-live="polite">
+      <div class="progress-row"><span id="progressText">Question 1 of 5</span><span id="progressPercent">20%</span></div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+      <div class="question-wrap">
+        <p class="eyebrow" id="questionEyebrow">SET THE MOOD</p>
+        <h2 id="questionTitle"></h2>
+        <p class="question-subtitle" id="questionSubtitle"></p>
+        <div class="options" id="options"></div>
+      </div>
+      <button class="back-btn" id="backBtn">← Back</button>
+    </section>
+
+    <section class="result-section hidden" id="result">
+      <p class="eyebrow">YOUR MATCH</p>
+      <h2>Tonight's pick</h2>
+      <div class="movie-card">
+        <div class="movie-poster" id="poster"><span id="posterInitials"></span></div>
+        <div class="movie-info">
+          <div class="match-badge" id="matchBadge">92% match</div>
+          <h3 id="movieTitle"></h3>
+          <p class="movie-meta" id="movieMeta"></p>
+          <p id="movieDescription"></p>
+          <div class="tags" id="movieTags"></div>
+          <div class="actions">
+            <a class="primary-btn trailer-btn" id="trailerBtn" target="_blank" rel="noopener noreferrer">Watch trailer <span>↗</span></a>
+            <button class="secondary-btn" id="nextBtn">Not for me →</button>
+          </div>
+        </div>
+      </div>
+      <button class="restart-btn" id="restartBtn">Start over</button>
+    </section>
+  </main>
+
+  <footer>Made for people who love Bollywood and hate endless scrolling.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
