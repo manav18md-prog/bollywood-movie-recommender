@@ -1,0 +1,2374 @@
+[
+ {
+  "id": "parasite",
+  "title": "Parasite",
+  "year": 2019,
+  "runtime": 132,
+  "director": "Bong Joon-ho",
+  "country": "South Korea",
+  "language": "Korean",
+  "genres": [
+   "thriller",
+   "dark comedy"
+  ],
+  "moods": [
+   "tense",
+   "dark"
+  ],
+  "situations": [
+   "date-night",
+   "friends"
+  ],
+  "effort": "high",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.5,
+  "pitch": "A broke family cons their way into a rich household, and then the basement opens up.",
+  "why": "when you want a twisty class satire that actually sticks the landing",
+  "trailerId": "QRkBjCGJ3Uc",
+  "accent": "#5c6b3f"
+ },
+ {
+  "id": "amelie",
+  "title": "Amelie",
+  "year": 2001,
+  "runtime": 122,
+  "director": "Jean-Pierre Jeunet",
+  "country": "France",
+  "language": "French",
+  "genres": [
+   "romance",
+   "comedy"
+  ],
+  "moods": [
+   "uplifting",
+   "romantic",
+   "cozy"
+  ],
+  "situations": [
+   "solo",
+   "date-night"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.3,
+  "pitch": "A shy Parisian waitress starts secretly engineering little miracles for strangers.",
+  "why": "when you need a warm hug of a movie in candy colors",
+  "trailerId": "2UT5xaAfxWU",
+  "accent": "#c23b2a"
+ },
+ {
+  "id": "spirited-away",
+  "title": "Spirited Away",
+  "year": 2001,
+  "runtime": 125,
+  "director": "Hayao Miyazaki",
+  "country": "Japan",
+  "language": "Japanese",
+  "genres": [
+   "animation",
+   "fantasy"
+  ],
+  "moods": [
+   "epic",
+   "thought-provoking"
+  ],
+  "situations": [
+   "family",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": true,
+  "imdb": 8.6,
+  "pitch": "A girl wanders into a spirit world bathhouse and has to work her way back home.",
+  "why": "when you want animated wonder that adults love as much as kids",
+  "trailerId": "GAp2_0JJskk",
+  "accent": "#2e8b8b"
+ },
+ {
+  "id": "city-of-god",
+  "title": "City of God",
+  "year": 2002,
+  "runtime": 130,
+  "director": "Fernando Meirelles",
+  "country": "Brazil",
+  "language": "Portuguese",
+  "genres": [
+   "crime",
+   "drama"
+  ],
+  "moods": [
+   "tense",
+   "dark"
+  ],
+  "situations": [
+   "solo",
+   "friends"
+  ],
+  "effort": "high",
+  "intensity": 5,
+  "era": "2000s",
+  "trueStory": true,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.6,
+  "pitch": "Two kids grow up on opposite sides of gang life in a Rio favela over two decades.",
+  "why": "when you want kinetic, unflinching crime cinema that never lets up",
+  "trailerId": "RfnGQetbX-U",
+  "accent": "#d97b2b"
+ },
+ {
+  "id": "pans-labyrinth",
+  "title": "Pan's Labyrinth",
+  "year": 2006,
+  "runtime": 118,
+  "director": "Guillermo del Toro",
+  "country": "Spain",
+  "language": "Spanish",
+  "genres": [
+   "fantasy",
+   "drama"
+  ],
+  "moods": [
+   "dark",
+   "heartbreaking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 4,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.2,
+  "pitch": "A lonely girl escapes fascist Spain into a fairy tale that turns out just as brutal.",
+  "why": "when you want gorgeous dark fantasy with real teeth",
+  "trailerId": "3ARCBVIE_KQ",
+  "accent": "#3a4d2b"
+ },
+ {
+  "id": "rrr",
+  "title": "RRR",
+  "year": 2022,
+  "runtime": 187,
+  "director": "S. S. Rajamouli",
+  "country": "India",
+  "language": "Telugu",
+  "genres": [
+   "action",
+   "drama"
+  ],
+  "moods": [
+   "epic",
+   "adrenaline",
+   "uplifting"
+  ],
+  "situations": [
+   "friends",
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 3,
+  "era": "2020s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.8,
+  "pitch": "Two revolutionaries become best friends without knowing they're destined to be enemies.",
+  "why": "when you want maximalist action that never stops escalating",
+  "trailerId": "i4pjiLGUTtk",
+  "accent": "#b8202a"
+ },
+ {
+  "id": "train-to-busan",
+  "title": "Train to Busan",
+  "year": 2016,
+  "runtime": 118,
+  "director": "Yeon Sang-ho",
+  "country": "South Korea",
+  "language": "Korean",
+  "genres": [
+   "horror",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "scary"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.6,
+  "pitch": "A zombie outbreak turns a high-speed train to Busan into a sprint for survival.",
+  "why": "when you want a zombie movie that also makes you cry",
+  "trailerId": "97bcFB4VnEk",
+  "accent": "#8a1f2b"
+ },
+ {
+  "id": "the-lives-of-others",
+  "title": "The Lives of Others",
+  "year": 2006,
+  "runtime": 137,
+  "director": "Florian Henckel von Donnersmarck",
+  "country": "Germany",
+  "language": "German",
+  "genres": [
+   "drama",
+   "thriller"
+  ],
+  "moods": [
+   "thought-provoking",
+   "tense"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.4,
+  "pitch": "A Stasi agent surveilling a playwright slowly starts protecting the life he's spying on.",
+  "why": "when you want a quiet, devastating story about conscience",
+  "trailerId": "n3_iLOp6IhM",
+  "accent": "#4a4a52"
+ },
+ {
+  "id": "portrait-of-a-lady-on-fire",
+  "title": "Portrait of a Lady on Fire",
+  "year": 2019,
+  "runtime": 122,
+  "director": "Celine Sciamma",
+  "country": "France",
+  "language": "French",
+  "genres": [
+   "romance",
+   "drama"
+  ],
+  "moods": [
+   "romantic",
+   "heartbreaking"
+  ],
+  "situations": [
+   "date-night",
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.1,
+  "pitch": "A painter falls for the reluctant bride she's secretly been hired to portray.",
+  "why": "when you want a slow-burn romance shot like a painting",
+  "trailerId": "UrjP5T_IBFo",
+  "accent": "#7a2e2e"
+ },
+ {
+  "id": "drive-my-car",
+  "title": "Drive My Car",
+  "year": 2021,
+  "runtime": 179,
+  "director": "Ryusuke Hamaguchi",
+  "country": "Japan",
+  "language": "Japanese",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "thought-provoking",
+   "heartbreaking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 2,
+  "era": "2020s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.4,
+  "pitch": "A grieving director and his silent chauffeur slowly open up over long drives to rehearsal.",
+  "why": "when you want a patient, literary meditation on grief",
+  "trailerId": "X-2TrfVsBQ8",
+  "accent": "#c0392b"
+ },
+ {
+  "id": "society-of-the-snow",
+  "title": "Society of the Snow",
+  "year": 2023,
+  "runtime": 144,
+  "director": "J. A. Bayona",
+  "country": "Spain",
+  "language": "Spanish",
+  "genres": [
+   "drama",
+   "thriller"
+  ],
+  "moods": [
+   "heartbreaking",
+   "tense"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 5,
+  "era": "2020s",
+  "trueStory": true,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.8,
+  "pitch": "Survivors of a 1972 Andes plane crash face impossible choices to stay alive.",
+  "why": "when you want a true survival story that respects the real people in it",
+  "trailerId": "pDak4qLyF4Q",
+  "accent": "#8ea3b0"
+ },
+ {
+  "id": "anatomy-of-a-fall",
+  "title": "Anatomy of a Fall",
+  "year": 2023,
+  "runtime": 152,
+  "director": "Justine Triet",
+  "country": "France",
+  "language": "French",
+  "genres": [
+   "drama",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo",
+   "date-night"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2020s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.7,
+  "pitch": "A writer stands trial for her husband's death while their marriage is dissected in court.",
+  "why": "when you want a courtroom drama with no easy answers",
+  "trailerId": "FUXawkH-ONM",
+  "accent": "#2f3e46"
+ },
+ {
+  "id": "oldboy",
+  "title": "Oldboy",
+  "year": 2003,
+  "runtime": 120,
+  "director": "Park Chan-wook",
+  "country": "South Korea",
+  "language": "Korean",
+  "genres": [
+   "thriller",
+   "mystery"
+  ],
+  "moods": [
+   "dark",
+   "mind-bending"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 5,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.4,
+  "pitch": "A man freed after 15 years of unexplained captivity has five days to find out why.",
+  "why": "when you want a revenge thriller with a gut-punch twist",
+  "trailerId": "2cjtJAzinjQ",
+  "accent": "#7a1f1f"
+ },
+ {
+  "id": "a-separation",
+  "title": "A Separation",
+  "year": 2011,
+  "runtime": 123,
+  "director": "Asghar Farhadi",
+  "country": "Iran",
+  "language": "Persian",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "thought-provoking",
+   "tense"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.3,
+  "pitch": "A couple's divorce spirals into a legal and moral maze involving a hired caregiver.",
+  "why": "when you want a moral puzzle with no villains, just people",
+  "trailerId": "58Onuy5USTc",
+  "accent": "#9c8355"
+ },
+ {
+  "id": "cinema-paradiso",
+  "title": "Cinema Paradiso",
+  "year": 1988,
+  "runtime": 155,
+  "director": "Giuseppe Tornatore",
+  "country": "Italy",
+  "language": "Italian",
+  "genres": [
+   "drama",
+   "romance"
+  ],
+  "moods": [
+   "heartbreaking",
+   "uplifting",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "1980s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.5,
+  "pitch": "A filmmaker looks back on his childhood friendship with the projectionist who raised him on movies.",
+  "why": "when you want a love letter to cinema that will make you cry happy tears",
+  "trailerId": "C2-GX0Tltgw",
+  "accent": "#c98a2b"
+ },
+ {
+  "id": "the-intouchables",
+  "title": "The Intouchables",
+  "year": 2011,
+  "runtime": 112,
+  "director": "Olivier Nakache, Eric Toledano",
+  "country": "France",
+  "language": "French",
+  "genres": [
+   "comedy",
+   "drama"
+  ],
+  "moods": [
+   "uplifting",
+   "funny",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "friends"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": true,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.5,
+  "pitch": "A wealthy quadriplegic hires an ex-con from the projects as his caregiver, chaos and friendship follow.",
+  "why": "when you want a feel-good buddy story based on real people",
+  "trailerId": "4zbYp45jqg8",
+  "accent": "#2b6ca3"
+ },
+ {
+  "id": "wild-tales",
+  "title": "Wild Tales",
+  "year": 2014,
+  "runtime": 122,
+  "director": "Damian Szifron",
+  "country": "Argentina",
+  "language": "Spanish",
+  "genres": [
+   "comedy",
+   "drama"
+  ],
+  "moods": [
+   "dark",
+   "funny"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 8.1,
+  "pitch": "Six unconnected stories about ordinary people pushed past their breaking point into glorious chaos.",
+  "why": "when you want pitch-black comedy in bite-sized bursts",
+  "trailerId": "Utq0aDEp084",
+  "accent": "#a4341f"
+ },
+ {
+  "id": "roma",
+  "title": "Roma",
+  "year": 2018,
+  "runtime": 135,
+  "director": "Alfonso Cuaron",
+  "country": "Mexico",
+  "language": "Spanish",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "heartbreaking",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.7,
+  "pitch": "A year in the life of a live-in housekeeper for a middle-class family in 1970s Mexico City.",
+  "why": "when you want quiet, black-and-white beauty over plot",
+  "trailerId": "sKVYRtE-kXI",
+  "accent": "#5a5a5a"
+ },
+ {
+  "id": "your-name",
+  "title": "Your Name",
+  "year": 2016,
+  "runtime": 106,
+  "director": "Makoto Shinkai",
+  "country": "Japan",
+  "language": "Japanese",
+  "genres": [
+   "animation",
+   "romance"
+  ],
+  "moods": [
+   "romantic",
+   "mind-bending"
+  ],
+  "situations": [
+   "date-night",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": true,
+  "imdb": 8.4,
+  "pitch": "Two teens who keep swapping bodies across time try to find each other before it's too late.",
+  "why": "when you want an animated romance that will wreck you emotionally",
+  "trailerId": "RuyHIkXdYf8",
+  "accent": "#3f5f9e"
+ },
+ {
+  "id": "my-neighbor-totoro",
+  "title": "My Neighbor Totoro",
+  "year": 1988,
+  "runtime": 86,
+  "director": "Hayao Miyazaki",
+  "country": "Japan",
+  "language": "Japanese",
+  "genres": [
+   "animation",
+   "family"
+  ],
+  "moods": [
+   "cozy",
+   "uplifting"
+  ],
+  "situations": [
+   "family",
+   "background"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "1980s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": true,
+  "imdb": 8.1,
+  "pitch": "Two sisters move to the countryside and befriend a giant, gentle forest spirit.",
+  "why": "when you want the coziest possible movie to put anyone at ease",
+  "trailerId": "HaLISMAGdOE",
+  "accent": "#5a9e6f"
+ },
+ {
+  "id": "the-grand-budapest-hotel",
+  "title": "The Grand Budapest Hotel",
+  "year": 2014,
+  "runtime": 99,
+  "director": "Wes Anderson",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "adventure"
+  ],
+  "moods": [
+   "funny",
+   "uplifting",
+   "cozy"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "A dapper concierge and his loyal lobby boy get tangled in a stolen painting and a murder.",
+  "why": "when you want candy-colored whimsy with impeccable comic timing",
+  "trailerId": "WFxZtdS98o0",
+  "accent": "#c9457a"
+ },
+ {
+  "id": "get-out",
+  "title": "Get Out",
+  "year": 2017,
+  "runtime": 104,
+  "director": "Jordan Peele",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "horror",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "scary"
+  ],
+  "situations": [
+   "friends",
+   "date-night",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.8,
+  "pitch": "Meeting the parents goes horribly, cleverly wrong for a young Black man visiting his girlfriend's family.",
+  "why": "when you want smart horror that's really biting social satire",
+  "trailerId": "K9su2d0WM2I",
+  "accent": "#1f2937"
+ },
+ {
+  "id": "everything-everywhere-all-at-once",
+  "title": "Everything Everywhere All at Once",
+  "year": 2022,
+  "runtime": 140,
+  "director": "Daniel Kwan, Daniel Scheinert",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "comedy"
+  ],
+  "moods": [
+   "mind-bending",
+   "funny",
+   "heartbreaking"
+  ],
+  "situations": [
+   "friends",
+   "date-night"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2020s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.8,
+  "pitch": "A stressed laundromat owner discovers she must save the multiverse by connecting with alternate selves.",
+  "why": "when you want chaotic multiverse action that ends in a group hug",
+  "trailerId": "wxN1T1uxQ2g",
+  "accent": "#e0a13c"
+ },
+ {
+  "id": "knives-out",
+  "title": "Knives Out",
+  "year": 2019,
+  "runtime": 130,
+  "director": "Rian Johnson",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "mystery",
+   "comedy"
+  ],
+  "moods": [
+   "funny",
+   "thought-provoking",
+   "tense"
+  ],
+  "situations": [
+   "friends",
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "A dysfunctional wealthy family becomes a murder mystery buffet for a very Southern detective.",
+  "why": "when you want a whodunit that's actually laugh-out-loud fun",
+  "trailerId": "odMdKdTa7g8",
+  "accent": "#7a1f2b"
+ },
+ {
+  "id": "the-shawshank-redemption",
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "runtime": 142,
+  "director": "Frank Darabont",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "uplifting",
+   "heartbreaking"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 3,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 9.3,
+  "pitch": "A wrongly convicted banker spends decades quietly outsmarting a brutal prison system.",
+  "why": "when you want the ultimate hope-against-all-odds story",
+  "trailerId": "NmzuHjWmXOc",
+  "accent": "#3d4a52"
+ },
+ {
+  "id": "pulp-fiction",
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "runtime": 154,
+  "director": "Quentin Tarantino",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "crime",
+   "dark comedy"
+  ],
+  "moods": [
+   "dark",
+   "funny"
+  ],
+  "situations": [
+   "friends"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.9,
+  "pitch": "Hitmen, a boxer, and a briefcase collide across LA in a shuffled, quotable crime epic.",
+  "why": "when you want stylish, nonlinear crime with killer dialogue",
+  "trailerId": "tGpTpVyI_OQ",
+  "accent": "#d4b016"
+ },
+ {
+  "id": "inception",
+  "title": "Inception",
+  "year": 2010,
+  "runtime": 148,
+  "director": "Christopher Nolan",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "action"
+  ],
+  "moods": [
+   "mind-bending",
+   "tense",
+   "epic"
+  ],
+  "situations": [
+   "friends",
+   "date-night"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.8,
+  "pitch": "A thief who steals secrets from dreams is offered one last impossible job: planting an idea instead.",
+  "why": "when you want a heist movie that folds reality in on itself",
+  "trailerId": "YoHD9XEInc0",
+  "accent": "#2c3e6e"
+ },
+ {
+  "id": "la-la-land",
+  "title": "La La Land",
+  "year": 2016,
+  "runtime": 128,
+  "director": "Damien Chazelle",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "musical"
+  ],
+  "moods": [
+   "romantic",
+   "heartbreaking"
+  ],
+  "situations": [
+   "date-night",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.0,
+  "pitch": "A jazz pianist and an aspiring actress fall in love while chasing very different dreams in LA.",
+  "why": "when you want a bittersweet musical romance in gorgeous color",
+  "trailerId": "WwazpNePv2c",
+  "accent": "#f2a51a"
+ },
+ {
+  "id": "whiplash",
+  "title": "Whiplash",
+  "year": 2014,
+  "runtime": 106,
+  "director": "Damien Chazelle",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "tense",
+   "adrenaline"
+  ],
+  "situations": [
+   "solo",
+   "friends"
+  ],
+  "effort": "high",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.5,
+  "pitch": "A young drummer's obsession with greatness collides with a viciously demanding conductor.",
+  "why": "when you want a movie that turns a jazz class into a thriller",
+  "trailerId": "Df1xkYYbYrY",
+  "accent": "#a3201f"
+ },
+ {
+  "id": "the-truman-show",
+  "title": "The Truman Show",
+  "year": 1998,
+  "runtime": 103,
+  "director": "Peter Weir",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama",
+   "comedy"
+  ],
+  "moods": [
+   "thought-provoking",
+   "uplifting"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.2,
+  "pitch": "A cheerful insurance salesman slowly realizes his entire life has been a live TV show.",
+  "why": "when you want a high-concept classic that still feels ahead of its time",
+  "trailerId": "svCy86Nl_J0",
+  "accent": "#3d8fc4"
+ },
+ {
+  "id": "eternal-sunshine-of-the-spotless-mind",
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "year": 2004,
+  "runtime": 108,
+  "director": "Michel Gondry",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "sci-fi"
+  ],
+  "moods": [
+   "heartbreaking",
+   "mind-bending"
+  ],
+  "situations": [
+   "solo",
+   "date-night"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.3,
+  "pitch": "A heartbroken man undergoes a procedure to erase memories of his ex, and starts regretting it mid-erase.",
+  "why": "when you want a heartbreak movie shaped like a dream",
+  "trailerId": "07-QBnEkgXU",
+  "accent": "#e8663a"
+ },
+ {
+  "id": "little-miss-sunshine",
+  "title": "Little Miss Sunshine",
+  "year": 2006,
+  "runtime": 101,
+  "director": "Jonathan Dayton, Valerie Faris",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "drama"
+  ],
+  "moods": [
+   "funny",
+   "uplifting",
+   "heartbreaking"
+  ],
+  "situations": [
+   "family",
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.8,
+  "pitch": "A hilariously dysfunctional family road-trips a beat-up van to get their daughter to a beauty pageant.",
+  "why": "when you want a road trip comedy with real heart underneath",
+  "trailerId": "bQ7BZTMLImA",
+  "accent": "#f2c12e"
+ },
+ {
+  "id": "paddington-2",
+  "title": "Paddington 2",
+  "year": 2017,
+  "runtime": 103,
+  "director": "Paul King",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "family"
+  ],
+  "moods": [
+   "uplifting",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "background",
+   "friends"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.8,
+  "pitch": "A politeness-obsessed bear is framed for theft and must clear his name from inside prison.",
+  "why": "when you need pure, undiluted kindness on screen",
+  "trailerId": "52x5HJ9H8DM",
+  "accent": "#c23a2e"
+ },
+ {
+  "id": "hunt-for-the-wilderpeople",
+  "title": "Hunt for the Wilderpeople",
+  "year": 2016,
+  "runtime": 101,
+  "director": "Taika Waititi",
+  "country": "New Zealand",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "adventure"
+  ],
+  "moods": [
+   "funny",
+   "heartbreaking",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "friends"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "A troubled foster kid and his grumpy new uncle become fugitives hiding out in the bush.",
+  "why": "when you want a scruffy, funny found-family adventure",
+  "trailerId": "dPaU4Gymt3E",
+  "accent": "#4f7942"
+ },
+ {
+  "id": "coco",
+  "title": "Coco",
+  "year": 2017,
+  "runtime": 105,
+  "director": "Lee Unkrich, Adrian Molina",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "animation",
+   "family"
+  ],
+  "moods": [
+   "uplifting",
+   "heartbreaking"
+  ],
+  "situations": [
+   "family",
+   "friends"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": false,
+  "imdb": 8.4,
+  "pitch": "A boy who dreams of music accidentally crosses into the Land of the Dead on Dia de los Muertos.",
+  "why": "when you want a guaranteed animated tearjerker for the whole family",
+  "trailerId": "xlnPHQ3TLX8",
+  "accent": "#e8792b"
+ },
+ {
+  "id": "spider-man-into-the-spider-verse",
+  "title": "Spider-Man: Into the Spider-Verse",
+  "year": 2018,
+  "runtime": 117,
+  "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "animation",
+   "action"
+  ],
+  "moods": [
+   "epic",
+   "funny",
+   "uplifting"
+  ],
+  "situations": [
+   "friends",
+   "family"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": false,
+  "imdb": 8.4,
+  "pitch": "A Brooklyn teen becomes Spider-Man just as five other Spider-people fall into his universe.",
+  "why": "when you want a superhero movie that reinvents what animation can do",
+  "trailerId": "g4Hbz2jLxvQ",
+  "accent": "#c0242e"
+ },
+ {
+  "id": "wall-e",
+  "title": "WALL-E",
+  "year": 2008,
+  "runtime": 98,
+  "director": "Andrew Stanton",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "animation",
+   "sci-fi"
+  ],
+  "moods": [
+   "uplifting",
+   "romantic",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "background"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": true,
+  "subtitles": false,
+  "imdb": 8.4,
+  "pitch": "A lonely trash-compacting robot falls for a sleek probe sent to check if Earth is livable again.",
+  "why": "when you want a near-silent love story with a big conscience",
+  "trailerId": "81nYibxXWCo",
+  "accent": "#d9a029"
+ },
+ {
+  "id": "the-iron-giant",
+  "title": "The Iron Giant",
+  "year": 1999,
+  "runtime": 86,
+  "director": "Brad Bird",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "animation",
+   "drama"
+  ],
+  "moods": [
+   "heartbreaking",
+   "uplifting",
+   "cozy"
+  ],
+  "situations": [
+   "family"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": true,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "A boy befriends a giant alien robot and has to convince it it doesn't have to be a weapon.",
+  "why": "when you want an underseen animated classic that hits hard",
+  "trailerId": "c3T0OyC9o8U",
+  "accent": "#4a6a7a"
+ },
+ {
+  "id": "a-quiet-place",
+  "title": "A Quiet Place",
+  "year": 2018,
+  "runtime": 90,
+  "director": "John Krasinski",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "horror",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "scary"
+  ],
+  "situations": [
+   "date-night",
+   "friends",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.5,
+  "pitch": "A family must live in near-total silence to avoid sound-hunting creatures that will kill them.",
+  "why": "when you want a horror movie that's also about parenthood",
+  "trailerId": "WR7cc5t7tv8",
+  "accent": "#556b2f"
+ },
+ {
+  "id": "hereditary",
+  "title": "Hereditary",
+  "year": 2018,
+  "runtime": 127,
+  "director": "Ari Aster",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "horror"
+  ],
+  "moods": [
+   "dark",
+   "scary"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 5,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.3,
+  "pitch": "A family unravels after their secretive grandmother's death exposes something far worse.",
+  "why": "when you want horror that lingers for days, not jump scares",
+  "trailerId": "V6wWKNij_1M",
+  "accent": "#3a2f2f"
+ },
+ {
+  "id": "the-babadook",
+  "title": "The Babadook",
+  "year": 2014,
+  "runtime": 94,
+  "director": "Jennifer Kent",
+  "country": "Australia",
+  "language": "English",
+  "genres": [
+   "horror",
+   "drama"
+  ],
+  "moods": [
+   "dark",
+   "scary"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 6.8,
+  "pitch": "A grieving single mother can't shake the storybook monster her son insists is real.",
+  "why": "when you want a monster movie that's really about depression",
+  "trailerId": "-mRhup5hLTM",
+  "accent": "#1c1c2e"
+ },
+ {
+  "id": "alien",
+  "title": "Alien",
+  "year": 1979,
+  "runtime": 117,
+  "director": "Ridley Scott",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "horror"
+  ],
+  "moods": [
+   "tense",
+   "scary"
+  ],
+  "situations": [
+   "date-night",
+   "friends"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "1970s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.5,
+  "pitch": "A commercial spaceship crew realizes their unwelcome new passenger is a perfect killing machine.",
+  "why": "when you want the original in-space-no-one-can-hear-you-scream classic",
+  "trailerId": "PjJ5cjywiUI",
+  "accent": "#1a1a1a"
+ },
+ {
+  "id": "the-thing",
+  "title": "The Thing",
+  "year": 1982,
+  "runtime": 109,
+  "director": "John Carpenter",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "horror",
+   "sci-fi"
+  ],
+  "moods": [
+   "tense",
+   "scary"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 5,
+  "era": "1980s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.2,
+  "pitch": "An Antarctic research team realizes one of them isn't human anymore, but no one knows who.",
+  "why": "when you want paranoia and practical effects that still hold up",
+  "trailerId": "brPRW-_OcdE",
+  "accent": "#3c5a6e"
+ },
+ {
+  "id": "jaws",
+  "title": "Jaws",
+  "year": 1975,
+  "runtime": 124,
+  "director": "Steven Spielberg",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "thriller",
+   "adventure"
+  ],
+  "moods": [
+   "tense",
+   "adrenaline"
+  ],
+  "situations": [
+   "family",
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 3,
+  "era": "1970s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "A small beach town's summer is ruined by a great white shark with a taste for tourists.",
+  "why": "when you want the original blockbuster that invented the summer movie",
+  "trailerId": "U1fu_sA7XhE",
+  "accent": "#1e5a7a"
+ },
+ {
+  "id": "mad-max-fury-road",
+  "title": "Mad Max: Fury Road",
+  "year": 2015,
+  "runtime": 120,
+  "director": "George Miller",
+  "country": "Australia",
+  "language": "English",
+  "genres": [
+   "action",
+   "sci-fi"
+  ],
+  "moods": [
+   "adrenaline",
+   "epic",
+   "tense"
+  ],
+  "situations": [
+   "friends",
+   "date-night"
+  ],
+  "effort": "low",
+  "intensity": 5,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "A wasteland warrior and a rebel rig-driver stage a two-hour, nonstop desert chase for freedom.",
+  "why": "when you want maximum adrenaline with almost no downtime",
+  "trailerId": "hEJnMQG9ev8",
+  "accent": "#c96a1f"
+ },
+ {
+  "id": "die-hard",
+  "title": "Die Hard",
+  "year": 1988,
+  "runtime": 132,
+  "director": "John McTiernan",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "action",
+   "thriller"
+  ],
+  "moods": [
+   "adrenaline",
+   "funny"
+  ],
+  "situations": [
+   "friends",
+   "family"
+  ],
+  "effort": "low",
+  "intensity": 3,
+  "era": "1980s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.2,
+  "pitch": "A barefoot NYPD cop takes on a building full of thieves crashing his wife's office Christmas party.",
+  "why": "when you want the action movie that set the template for all others",
+  "trailerId": "2TQ-pOvI6Xo",
+  "accent": "#8a1f1f"
+ },
+ {
+  "id": "the-matrix",
+  "title": "The Matrix",
+  "year": 1999,
+  "runtime": 136,
+  "director": "Lana Wachowski, Lilly Wachowski",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "action"
+  ],
+  "moods": [
+   "mind-bending",
+   "adrenaline"
+  ],
+  "situations": [
+   "friends"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.7,
+  "pitch": "A restless programmer learns the world he knows is a simulation, and he might be able to break it.",
+  "why": "when you want the movie that rewired action cinema and philosophy alike",
+  "trailerId": "ywmaUcIH30w",
+  "accent": "#0d3b0d"
+ },
+ {
+  "id": "blade-runner-2049",
+  "title": "Blade Runner 2049",
+  "year": 2017,
+  "runtime": 164,
+  "director": "Denis Villeneuve",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "drama"
+  ],
+  "moods": [
+   "thought-provoking",
+   "epic"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.0,
+  "pitch": "A young blade runner uncovers a secret that could unravel what's left of society.",
+  "why": "when you want slow, gorgeous sci-fi that rewards patience",
+  "trailerId": "gCcx85zbxz4",
+  "accent": "#e08a2b"
+ },
+ {
+  "id": "arrival",
+  "title": "Arrival",
+  "year": 2016,
+  "runtime": 116,
+  "director": "Denis Villeneuve",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "drama"
+  ],
+  "moods": [
+   "thought-provoking",
+   "heartbreaking",
+   "mind-bending"
+  ],
+  "situations": [
+   "solo",
+   "date-night"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "A linguist is recruited to communicate with aliens whose language reshapes how she sees time.",
+  "why": "when you want cerebral sci-fi that ends in tears",
+  "trailerId": "tFMo3UJ4B4g",
+  "accent": "#4a5a6e"
+ },
+ {
+  "id": "moon",
+  "title": "Moon",
+  "year": 2009,
+  "runtime": 97,
+  "director": "Duncan Jones",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "drama"
+  ],
+  "moods": [
+   "mind-bending",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.8,
+  "pitch": "A lone astronaut nearing the end of a three-year lunar contract starts questioning what's real.",
+  "why": "when you want a small, smart sci-fi gem you probably missed",
+  "trailerId": "WWoDBcSW4_c",
+  "accent": "#7a7a8a"
+ },
+ {
+  "id": "ex-machina",
+  "title": "Ex Machina",
+  "year": 2014,
+  "runtime": 108,
+  "director": "Alex Garland",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "mind-bending"
+  ],
+  "situations": [
+   "solo",
+   "date-night"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.7,
+  "pitch": "A programmer is invited to test whether a strikingly lifelike AI is truly conscious.",
+  "why": "when you want a tense two-hander that questions what makes us human",
+  "trailerId": "gyKqHOgMi4g",
+  "accent": "#1f3a3a"
+ },
+ {
+  "id": "children-of-men",
+  "title": "Children of Men",
+  "year": 2006,
+  "runtime": 109,
+  "director": "Alfonso Cuaron",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "sci-fi",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 4,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "In a world where no child has been born in 18 years, one man must protect the impossible: a pregnant woman.",
+  "why": "when you want dystopia shot with breathless, unbroken camera takes",
+  "trailerId": "2VT2apoX90o",
+  "accent": "#5a5a4a"
+ },
+ {
+  "id": "when-harry-met-sally",
+  "title": "When Harry Met Sally",
+  "year": 1989,
+  "runtime": 96,
+  "director": "Rob Reiner",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "comedy"
+  ],
+  "moods": [
+   "romantic",
+   "funny",
+   "cozy"
+  ],
+  "situations": [
+   "date-night"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "1980s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.6,
+  "pitch": "Two friends spend a decade arguing about whether men and women can ever just be friends.",
+  "why": "when you want the rom-com that basically invented the genre's rules",
+  "trailerId": "k7utaa1Ify4",
+  "accent": "#d98c3a"
+ },
+ {
+  "id": "before-sunrise",
+  "title": "Before Sunrise",
+  "year": 1995,
+  "runtime": 101,
+  "director": "Richard Linklater",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "drama"
+  ],
+  "moods": [
+   "romantic",
+   "thought-provoking"
+  ],
+  "situations": [
+   "date-night",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "Two strangers get off a train in Vienna and talk all night, knowing they'll part at dawn.",
+  "why": "when you want romance that's really just one long, perfect conversation",
+  "trailerId": "NlUiEJG88Uc",
+  "accent": "#c4762b"
+ },
+ {
+  "id": "crazy-rich-asians",
+  "title": "Crazy Rich Asians",
+  "year": 2018,
+  "runtime": 120,
+  "director": "Jon M. Chu",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "comedy"
+  ],
+  "moods": [
+   "uplifting",
+   "funny",
+   "romantic"
+  ],
+  "situations": [
+   "friends",
+   "date-night"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 6.9,
+  "pitch": "A New Yorker discovers her boyfriend is heir to one of Asia's wealthiest families.",
+  "why": "when you want glossy escapism with real family stakes",
+  "trailerId": "FIP_supedME",
+  "accent": "#c9a227"
+ },
+ {
+  "id": "silver-linings-playbook",
+  "title": "Silver Linings Playbook",
+  "year": 2012,
+  "runtime": 122,
+  "director": "David O. Russell",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "romance",
+   "comedy"
+  ],
+  "moods": [
+   "funny",
+   "heartbreaking",
+   "romantic"
+  ],
+  "situations": [
+   "date-night",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.7,
+  "pitch": "Two people rebuilding their lives after breakdowns strike an odd bargain that turns into something real.",
+  "why": "when you want messy, honest romance about mental health",
+  "trailerId": "lzBk52E4SMA",
+  "accent": "#8a2f3a"
+ },
+ {
+  "id": "lady-bird",
+  "title": "Lady Bird",
+  "year": 2017,
+  "runtime": 94,
+  "director": "Greta Gerwig",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "drama"
+  ],
+  "moods": [
+   "funny",
+   "heartbreaking"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.4,
+  "pitch": "A headstrong teen spends her senior year fighting with her mother and dreaming of somewhere else.",
+  "why": "when you want a coming-of-age story that gets the mother-daughter fights exactly right",
+  "trailerId": "cNi_HC839Wo",
+  "accent": "#c0392b"
+ },
+ {
+  "id": "moonlight",
+  "title": "Moonlight",
+  "year": 2016,
+  "runtime": 111,
+  "director": "Barry Jenkins",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "heartbreaking",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.4,
+  "pitch": "A boy's life is traced across three chapters as he quietly comes to terms with who he is.",
+  "why": "when you want tender, poetic filmmaking about identity",
+  "trailerId": "9NJj12tJzqc",
+  "accent": "#1f3d5a"
+ },
+ {
+  "id": "the-farewell",
+  "title": "The Farewell",
+  "year": 2019,
+  "runtime": 100,
+  "director": "Lulu Wang",
+  "country": "USA",
+  "language": "Mandarin",
+  "genres": [
+   "drama",
+   "comedy"
+  ],
+  "moods": [
+   "heartbreaking",
+   "funny",
+   "cozy"
+  ],
+  "situations": [
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": true,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": true,
+  "imdb": 7.5,
+  "pitch": "A family hides grandma's terminal diagnosis from her, staging a wedding as an excuse to say goodbye.",
+  "why": "when you want a bittersweet story about family and cultural gaps",
+  "trailerId": "RofpAjqwMa8",
+  "accent": "#c98a4a"
+ },
+ {
+  "id": "amadeus",
+  "title": "Amadeus",
+  "year": 1984,
+  "runtime": 160,
+  "director": "Milos Forman",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama",
+   "biography"
+  ],
+  "moods": [
+   "epic",
+   "dark"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "high",
+  "intensity": 3,
+  "era": "1980s",
+  "trueStory": true,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.4,
+  "pitch": "A mediocre court composer becomes consumed by jealousy of the vulgar genius named Mozart.",
+  "why": "when you want opulent period drama fueled by pure envy",
+  "trailerId": "ZQV9yySOmhs",
+  "accent": "#b8860b"
+ },
+ {
+  "id": "goodfellas",
+  "title": "Goodfellas",
+  "year": 1990,
+  "runtime": 145,
+  "director": "Martin Scorsese",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "crime",
+   "drama"
+  ],
+  "moods": [
+   "tense",
+   "dark"
+  ],
+  "situations": [
+   "friends"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "1990s",
+  "trueStory": true,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.7,
+  "pitch": "A kid who always wanted to be a gangster gets his wish, and rides it as far as it'll go.",
+  "why": "when you want the definitive mob rise-and-fall story",
+  "trailerId": "fIzBFU1ScVw",
+  "accent": "#5a1f1f"
+ },
+ {
+  "id": "the-social-network",
+  "title": "The Social Network",
+  "year": 2010,
+  "runtime": 120,
+  "director": "David Fincher",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "drama"
+  ],
+  "moods": [
+   "tense",
+   "thought-provoking"
+  ],
+  "situations": [
+   "solo",
+   "friends"
+  ],
+  "effort": "medium",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": true,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.7,
+  "pitch": "A Harvard sophomore builds a website that becomes Facebook, and burns every friendship doing it.",
+  "why": "when you want fast-talking drama about ambition and betrayal",
+  "trailerId": "lB95KLmpLR4",
+  "accent": "#1e3a5a"
+ },
+ {
+  "id": "free-solo",
+  "title": "Free Solo",
+  "year": 2018,
+  "runtime": 100,
+  "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "documentary"
+  ],
+  "moods": [
+   "adrenaline",
+   "tense"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "medium",
+  "intensity": 4,
+  "era": "2010s",
+  "trueStory": true,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.1,
+  "pitch": "A climber attempts to scale Yosemite's El Capitan with no rope and zero margin for error.",
+  "why": "when you want a documentary that's more nail-biting than any thriller",
+  "trailerId": "urRVZ4SW7WU",
+  "accent": "#4a6a8a"
+ },
+ {
+  "id": "127-hours",
+  "title": "127 Hours",
+  "year": 2010,
+  "runtime": 94,
+  "director": "Danny Boyle",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "drama",
+   "thriller"
+  ],
+  "moods": [
+   "tense",
+   "heartbreaking"
+  ],
+  "situations": [
+   "solo"
+  ],
+  "effort": "high",
+  "intensity": 5,
+  "era": "2010s",
+  "trueStory": true,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.6,
+  "pitch": "A canyoneer trapped by a boulder in a remote gorge must make an unthinkable choice to survive.",
+  "why": "when you want a true survival story with visceral intensity",
+  "trailerId": "8D7RyoA8AUM",
+  "accent": "#c9702b"
+ },
+ {
+  "id": "life-of-pi",
+  "title": "Life of Pi",
+  "year": 2012,
+  "runtime": 127,
+  "director": "Ang Lee",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "adventure",
+   "drama"
+  ],
+  "moods": [
+   "epic",
+   "thought-provoking"
+  ],
+  "situations": [
+   "family",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 3,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "A shipwrecked boy shares a lifeboat with a Bengal tiger and has to survive the ocean and it.",
+  "why": "when you want visually stunning storytelling with a philosophical gut-punch",
+  "trailerId": "j9Hjrs6WQ8M",
+  "accent": "#2f6a8a"
+ },
+ {
+  "id": "the-secret-life-of-walter-mitty",
+  "title": "The Secret Life of Walter Mitty",
+  "year": 2013,
+  "runtime": 114,
+  "director": "Ben Stiller",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "adventure",
+   "comedy"
+  ],
+  "moods": [
+   "uplifting",
+   "epic"
+  ],
+  "situations": [
+   "solo",
+   "family"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.3,
+  "pitch": "A daydreaming photo archivist finally lives out his fantasies chasing a missing negative around the world.",
+  "why": "when you need a nudge to actually go do something with your life",
+  "trailerId": "fkf8JLCdtBQ",
+  "accent": "#3a6a9e"
+ },
+ {
+  "id": "big-fish",
+  "title": "Big Fish",
+  "year": 2003,
+  "runtime": 125,
+  "director": "Tim Burton",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "fantasy",
+   "drama"
+  ],
+  "moods": [
+   "uplifting",
+   "heartbreaking",
+   "cozy"
+  ],
+  "situations": [
+   "family",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": true,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.0,
+  "pitch": "A son tries to separate fact from tall tale as he reconciles with his dying, myth-making father.",
+  "why": "when you want a fantastical tearjerker about fathers and legacy",
+  "trailerId": "D0kiS4ROWkQ",
+  "accent": "#3f8a5a"
+ },
+ {
+  "id": "groundhog-day",
+  "title": "Groundhog Day",
+  "year": 1993,
+  "runtime": 101,
+  "director": "Harold Ramis",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "fantasy"
+  ],
+  "moods": [
+   "funny",
+   "thought-provoking",
+   "romantic"
+  ],
+  "situations": [
+   "family",
+   "friends"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "1990s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 8.0,
+  "pitch": "A cynical weatherman is stuck reliving the same small-town day until he figures out how to be decent.",
+  "why": "when you want the original time-loop comedy with real soul",
+  "trailerId": "GncQtURdcE4",
+  "accent": "#6a8ac9"
+ },
+ {
+  "id": "booksmart",
+  "title": "Booksmart",
+  "year": 2019,
+  "runtime": 102,
+  "director": "Olivia Wilde",
+  "country": "USA",
+  "language": "English",
+  "genres": [
+   "comedy"
+  ],
+  "moods": [
+   "funny",
+   "uplifting",
+   "cozy"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 2,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.1,
+  "pitch": "Two overachieving best friends cram four years of fun into one wild night before graduation.",
+  "why": "when you want a raunchy comedy with a genuinely sweet friendship at its core",
+  "trailerId": "GzE8kz8iGTM",
+  "accent": "#c9457a"
+ },
+ {
+  "id": "what-we-do-in-the-shadows",
+  "title": "What We Do in the Shadows",
+  "year": 2014,
+  "runtime": 86,
+  "director": "Jemaine Clement, Taika Waititi",
+  "country": "New Zealand",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "horror"
+  ],
+  "moods": [
+   "funny"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 1,
+  "era": "2010s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.7,
+  "pitch": "A documentary crew follows four vampire flatmates bickering over chores and hunting etiquette.",
+  "why": "when you want mockumentary horror-comedy with zero mean streak",
+  "trailerId": "IAZEWtyhpes",
+  "accent": "#2f1f3a"
+ },
+ {
+  "id": "shaun-of-the-dead",
+  "title": "Shaun of the Dead",
+  "year": 2004,
+  "runtime": 99,
+  "director": "Edgar Wright",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "comedy",
+   "horror"
+  ],
+  "moods": [
+   "funny",
+   "dark"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "low",
+  "intensity": 3,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "A directionless guy tries to win back his girlfriend and save his mum, all during a zombie apocalypse.",
+  "why": "when you want horror-comedy done with real affection for both genres",
+  "trailerId": "LIfcaZ4pC-4",
+  "accent": "#7a1f1f"
+ },
+ {
+  "id": "in-bruges",
+  "title": "In Bruges",
+  "year": 2008,
+  "runtime": 107,
+  "director": "Martin McDonagh",
+  "country": "UK",
+  "language": "English",
+  "genres": [
+   "dark comedy",
+   "crime"
+  ],
+  "moods": [
+   "funny",
+   "dark"
+  ],
+  "situations": [
+   "friends",
+   "solo"
+  ],
+  "effort": "medium",
+  "intensity": 3,
+  "era": "2000s",
+  "trueStory": false,
+  "bookAdaptation": false,
+  "animated": false,
+  "subtitles": false,
+  "imdb": 7.9,
+  "pitch": "Two hitmen hide out in a fairy-tale Belgian town after a hit goes wrong, waiting for orders.",
+  "why": "when you want jet-black comedy with an unexpectedly tender center",
+  "trailerId": "Y5fBMHjTVek",
+  "accent": "#2f4a3a"
+ }
+]

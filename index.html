@@ -1,63 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Find the right Bollywood movie for your mood, company and vibe." />
-  <title>FilmyForMe — Bollywood Movie Finder</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PickAMovieForMe — What movie should I watch?</title>
+<meta name="description" content="A quiz-based movie recommendation engine. Answer a few questions, get one hand-picked movie at a time. Free, no registration, trailers included." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f0e0d'/%3E%3Cpath d='M9 8h14v16H9z' fill='none' stroke='%23e8a33d' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='%23e8a33d'/%3E%3C/svg%3E" />
+<link href="https://api.fontshare.com/v2/css?f[]=boska@500,700&f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="FilmyForMe home"><span>F</span> FilmyForMe</a>
-    <div class="header-note">Bollywood, picked for you.</div>
-  </header>
+<div class="grain" aria-hidden="true"></div>
 
-  <main id="top">
-    <section class="hero" id="quiz-start">
-      <p class="eyebrow">YOUR PERSONAL BOLLYWOOD GUIDE</p>
-      <h1>What should you<br /><em>watch tonight?</em></h1>
-      <p class="hero-copy">Answer a few quick questions. We'll cut through the endless scrolling and find one Bollywood movie that fits your mood.</p>
-      <button class="primary-btn" id="startBtn">Find my movie <span>→</span></button>
-    </section>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="PickAMovieForMe home">
+    <svg class="logo" width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <rect x="4.5" y="6.5" width="23" height="19" rx="2.5" stroke="currentColor" stroke-width="2"/>
+      <circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="2"/>
+      <path d="M4.5 11.5h4M23.5 11.5h4M4.5 20.5h4M23.5 20.5h4" stroke="currentColor" stroke-width="2"/>
+    </svg>
+    <span class="brand-name">Pick<em>A</em>Movie<span class="brand-dim">ForMe</span></span>
+  </a>
+  <nav class="header-actions">
+    <button class="ghost-btn shortlist-btn" data-open-shortlist hidden>
+      Shortlist <span class="count-pill" data-shortlist-count>0</span>
+    </button>
+    <button class="ghost-btn icon-btn" data-theme-toggle aria-label="Switch to light mode"></button>
+  </nav>
+</header>
 
-    <section class="quiz-section hidden" id="quiz" aria-live="polite">
-      <div class="progress-row"><span id="progressText">Question 1 of 5</span><span id="progressPercent">20%</span></div>
-      <div class="progress-track"><div id="progressBar"></div></div>
-      <div class="question-wrap">
-        <p class="eyebrow" id="questionEyebrow">SET THE MOOD</p>
-        <h2 id="questionTitle"></h2>
-        <p class="question-subtitle" id="questionSubtitle"></p>
-        <div class="options" id="options"></div>
-      </div>
-      <button class="back-btn" id="backBtn">← Back</button>
-    </section>
+<main id="top">
 
-    <section class="result-section hidden" id="result">
-      <p class="eyebrow">YOUR MATCH</p>
-      <h2>Tonight's pick</h2>
-      <div class="movie-card">
-        <div class="movie-poster" id="poster"><span id="posterInitials"></span></div>
-        <div class="movie-info">
-          <div class="match-badge" id="matchBadge">92% match</div>
-          <h3 id="movieTitle"></h3>
-          <p class="movie-meta" id="movieMeta"></p>
-          <p id="movieDescription"></p>
-          <div class="tags" id="movieTags"></div>
-          <div class="actions">
-            <a class="primary-btn trailer-btn" id="trailerBtn" target="_blank" rel="noopener noreferrer">Watch trailer <span>↗</span></a>
-            <button class="secondary-btn" id="nextBtn">Not for me →</button>
+  <!-- ══ INTRO ══ -->
+  <section class="screen intro is-active" data-screen="intro">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Free · No sign-up · <span data-movie-count>—</span> hand-picked films</p>
+        <h1 class="hero-title">What movie<br />should I <em>watch</em>?</h1>
+        <p class="lede">
+          Stop scrolling. Answer a handful of quick questions about your mood and your evening,
+          and we hand you <strong>one</strong> film at a time — with the trailer, right here.
+        </p>
+
+        <div class="library-pick">
+          <p class="library-label">Which shelf are we pulling from?</p>
+          <div class="library-row" role="group" aria-label="Choose a film library">
+            <button class="lib-btn is-on" data-library="all">
+              <span class="lib-name">Everything</span>
+              <span class="lib-count" data-lib-count="all">—</span>
+            </button>
+            <button class="lib-btn" data-library="world">
+              <span class="lib-name">Hollywood &amp; world</span>
+              <span class="lib-count" data-lib-count="world">—</span>
+            </button>
+            <button class="lib-btn" data-library="bollywood">
+              <span class="lib-name">Bollywood</span>
+              <span class="lib-count" data-lib-count="bollywood">—</span>
+            </button>
           </div>
         </div>
-      </div>
-      <button class="restart-btn" id="restartBtn">Start over</button>
-    </section>
-  </main>
 
-  <footer>Made for people who love Bollywood and hate endless scrolling.</footer>
-  <script src="script.js"></script>
+        <button class="cta" data-start>
+          Start the quiz
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+      <div class="stub-stack" data-stub-stack aria-hidden="true"></div>
+    </div>
+    <ul class="intro-facts" role="list">
+      <li><span>30s</span>Average time to a decision</li>
+      <li><span>1</span>Suggestion at a time, never a wall of posters</li>
+      <li><span>0</span>Accounts, ads or algorithms guessing at you</li>
+    </ul>
+  </section>
+
+  <!-- ══ QUIZ ══ -->
+  <section class="screen quiz" data-screen="quiz" hidden>
+    <div class="quiz-top">
+      <button class="ghost-btn back-btn" data-back>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M19 12H6M12 19l-7-7 7-7"/></svg>
+        Back
+      </button>
+      <div class="progress" role="group" aria-label="Quiz progress">
+        <div class="progress-track"><div class="progress-fill" data-progress-fill></div></div>
+        <span class="progress-label" data-progress-label>Question 1 of 6</span>
+      </div>
+      <span class="lib-tag" data-library-tag>the whole shelf</span>
+    </div>
+
+    <div class="question-stage" data-question-stage aria-live="polite"></div>
+
+    <div class="quiz-foot">
+      <p class="hint" data-hint></p>
+      <button class="cta small" data-next hidden>Continue</button>
+    </div>
+  </section>
+
+  <!-- ══ RESULT ══ -->
+  <section class="screen result" data-screen="result" hidden>
+    <div class="result-head">
+      <p class="eyebrow" data-result-rank>Your best match</p>
+      <button class="ghost-btn" data-restart>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></svg>
+        Start over
+      </button>
+    </div>
+    <div class="card-stage" data-card-stage></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>PickAMovieForMe — every title watched, tagged and written up by hand. No affiliate links, no ratings soup.</p>
+</footer>
+
+<!-- ══ TRAILER MODAL ══ -->
+<div class="modal" data-modal hidden>
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-bar">
+      <h2 id="modal-title" data-modal-title>Trailer</h2>
+      <button class="ghost-btn icon-btn" data-modal-close aria-label="Close trailer">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="video-frame" data-video-frame></div>
+    <p class="modal-foot" data-modal-foot></p>
+  </div>
+</div>
+
+<!-- ══ SHORTLIST DRAWER ══ -->
+<div class="drawer" data-drawer hidden>
+  <div class="modal-backdrop" data-drawer-close></div>
+  <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="modal-bar">
+      <h2 id="drawer-title">Your shortlist</h2>
+      <button class="ghost-btn icon-btn" data-drawer-close aria-label="Close shortlist">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div data-drawer-body></div>
+  </aside>
+</div>
+
+<script src="js/app.js"></script>
 </body>
 </html>

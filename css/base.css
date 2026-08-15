@@ -1,0 +1,143 @@
+/* ── base.css ─────────────────────────────────────────── */
+:root {
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius-full: 9999px;
+
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --content-narrow: 640px;
+  --content-default: 940px;
+  --content-wide: 1180px;
+
+  --font-display: 'Boska', Georgia, serif;
+  --font-body: 'Satoshi', 'Inter', system-ui, sans-serif;
+}
+
+/* ── PROJECTOR palette ── */
+:root, [data-theme='light'] {
+  --color-bg: #f6f2ea;
+  --color-surface: #fbf8f2;
+  --color-surface-2: #fffdf8;
+  --color-surface-offset: #efe9de;
+  --color-surface-offset-2: #e9e2d5;
+  --color-surface-dynamic: #e3dbcc;
+  --color-divider: #e2dbcf;
+  --color-border: #d5ccbb;
+  --color-text: #1b1815;
+  --color-text-muted: #6c645a;
+  --color-text-faint: #a49b8e;
+  --color-text-inverse: #fbf8f2;
+  --color-primary: #96591a;
+  --color-primary-hover: #7b4712;
+  --color-primary-active: #5f350c;
+  --color-primary-highlight: #ecdfc9;
+  --color-error: #a4342e;
+  --shadow-sm: 0 1px 2px rgb(40 30 15 / 0.07);
+  --shadow-md: 0 6px 18px rgb(40 30 15 / 0.09);
+  --shadow-lg: 0 18px 44px rgb(40 30 15 / 0.14);
+  --grain-opacity: 0.035;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0e0d0c;
+  --color-surface: #161413;
+  --color-surface-2: #1c1a18;
+  --color-surface-offset: #191715;
+  --color-surface-offset-2: #211e1b;
+  --color-surface-dynamic: #292520;
+  --color-divider: #221f1c;
+  --color-border: #34302b;
+  --color-text: #ece7df;
+  --color-text-muted: #9a938a;
+  --color-text-faint: #6b655e;
+  --color-text-inverse: #14120f;
+  --color-primary: #e8a33d;
+  --color-primary-hover: #f3b75c;
+  --color-primary-active: #c9861f;
+  --color-primary-highlight: #3a2f1c;
+  --color-error: #dd6a63;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 6px 18px rgb(0 0 0 / 0.45);
+  --shadow-lg: 0 18px 44px rgb(0 0 0 / 0.55);
+  --grain-opacity: 0.055;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+[hidden] { display: none !important; }
+
+html {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  transition: background 240ms ease, color 240ms ease;
+}
+
+img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
+ul[role='list'] { list-style: none; }
+input, button, textarea, select { font: inherit; color: inherit; }
+h1, h2, h3, h4 { text-wrap: balance; line-height: 1.12; }
+p, li { text-wrap: pretty; }
+button { cursor: pointer; background: none; border: none; }
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--color-primary-highlight); color: var(--color-text); }
+
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; border-radius: var(--radius-sm); }
+
+a, button, [role='button'], input, select {
+  transition: color var(--transition-interactive), background var(--transition-interactive),
+    border-color var(--transition-interactive), box-shadow var(--transition-interactive),
+    transform var(--transition-interactive);
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

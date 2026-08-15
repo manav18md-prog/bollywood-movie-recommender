@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "sholay",
+    "title": "Sholay",
+    "year": 1975,
+    "runtime": 204,
+    "director": "Ramesh Sippy",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "action",
+      "drama"
+    ],
+    "moods": [
+      "epic",
+      "adrenaline",
+      "funny"
+    ],
+    "situations": [
+      "friends",
+      "family",
+      "solo",
+      "background"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "1970s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "Two small-time crooks are hired by a retired cop to capture the bandit who massacred his family.",
+    "why": "the definitive masala epic everyone should see once",
+    "trailerId": "zzTUvWfvlBg",
+    "accent": "#b8722b"
+  },
+  {
+    "id": "deewaar",
+    "title": "Deewaar",
+    "year": 1975,
+    "runtime": 174,
+    "director": "Yash Chopra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "moods": [
+      "dark",
+      "heartbreaking",
+      "epic"
+    ],
+    "situations": [
+      "solo",
+      "family",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "1970s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "Two brothers raised in poverty end up on opposite sides of the law, one a cop, one a smuggler.",
+    "why": "the angry-young-man film that defined a decade",
+    "trailerId": "DuJ_7UVyGIc",
+    "accent": "#3a3a42"
+  },
+  {
+    "id": "amar-akbar-anthony",
+    "title": "Amar Akbar Anthony",
+    "year": 1977,
+    "runtime": 184,
+    "director": "Manmohan Desai",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "action",
+      "drama"
+    ],
+    "moods": [
+      "funny",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "1970s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.8,
+    "pitch": "Three brothers separated in childhood are raised Hindu, Muslim, and Christian, then reunite as adults.",
+    "why": "peak Bollywood chaos with a big secular heart",
+    "trailerId": "ipayliexXYQ",
+    "accent": "#d4922a"
+  },
+  {
+    "id": "mr-india",
+    "title": "Mr. India",
+    "year": 1987,
+    "runtime": 181,
+    "director": "Shekhar Kapur",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "action",
+      "comedy",
+      "sci-fi"
+    ],
+    "moods": [
+      "uplifting",
+      "funny",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "1980s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.6,
+    "pitch": "A struggling foster father gains invisibility from a wristband and takes on a maniacal supervillain.",
+    "why": "campy superhero fun the whole family remembers fondly",
+    "trailerId": "23vVzr1NJAQ",
+    "accent": "#1f6f8b"
+  },
+  {
+    "id": "masoom",
+    "title": "Masoom",
+    "year": 1983,
+    "runtime": 137,
+    "director": "Shekhar Kapur",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "family"
+    ],
+    "moods": [
+      "heartbreaking",
+      "cozy"
+    ],
+    "situations": [
+      "solo",
+      "family"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "1980s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A happy marriage is upended when a husband's illegitimate son from a past affair enters the family.",
+    "why": "a quietly devastating look at forgiveness within a family",
+    "trailerId": "LZ_YUOr-tYw",
+    "accent": "#8a6a4f"
+  },
+  {
+    "id": "umrao-jaan",
+    "title": "Umrao Jaan",
+    "year": 1981,
+    "runtime": 145,
+    "director": "Muzaffar Ali",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "epic"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "1980s",
+    "trueStory": false,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.6,
+    "pitch": "Kidnapped as a child and sold into a courtesan house, a girl becomes Lucknow's most celebrated poet-singer.",
+    "why": "lush Urdu poetry and tragedy in equal, gorgeous measure",
+    "trailerId": "NfJRzpswvG4",
+    "accent": "#6b2737"
+  },
+  {
+    "id": "ddlj",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": 1995,
+    "runtime": 190,
+    "director": "Aditya Chopra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "romantic",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "date-night",
+      "family",
+      "solo",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.0,
+    "pitch": "A carefree NRI falls for a girl promised to another man and follows her to India to win her family over.",
+    "why": "the quintessential Bollywood romance that never left theatres",
+    "trailerId": "Ya1lIMPmmzA",
+    "accent": "#c9a13b"
+  },
+  {
+    "id": "hum-aapke-hain-koun",
+    "title": "Hum Aapke Hain Koun..!",
+    "year": 1994,
+    "runtime": 193,
+    "director": "Sooraj Barjatya",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "family",
+      "musical"
+    ],
+    "moods": [
+      "uplifting",
+      "cozy",
+      "romantic"
+    ],
+    "situations": [
+      "family",
+      "date-night",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.3,
+    "pitch": "A wedding brings two families together in songs and celebrations until tragedy tests their bond.",
+    "why": "a wall-to-wall wedding musical built for family movie nights",
+    "trailerId": "45JY12a6zJA",
+    "accent": "#e0b6c4"
+  },
+  {
+    "id": "andaz-apna-apna",
+    "title": "Andaz Apna Apna",
+    "year": 1994,
+    "runtime": 160,
+    "director": "Rajkumar Santoshi",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy"
+    ],
+    "moods": [
+      "funny",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "friends",
+      "family",
+      "solo",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "Two broke con men both try to woo the same heiress while dodging a one-eyed criminal mastermind.",
+    "why": "the cult comedy that gets funnier with every rewatch",
+    "trailerId": "p0P_kP4BklA",
+    "accent": "#e8842c"
+  },
+  {
+    "id": "rangeela",
+    "title": "Rangeela",
+    "year": 1995,
+    "runtime": 155,
+    "director": "Ram Gopal Varma",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "musical",
+      "drama"
+    ],
+    "moods": [
+      "romantic",
+      "uplifting",
+      "funny"
+    ],
+    "situations": [
+      "date-night",
+      "solo",
+      "family",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.2,
+    "pitch": "A street hustler watches the girl he loves get discovered as a movie star, and has to let her go.",
+    "why": "an A.R. Rahman soundtrack that outshines the love triangle",
+    "trailerId": "4IaBRy7-7Zk",
+    "accent": "#d43f6b"
+  },
+  {
+    "id": "dil-se",
+    "title": "Dil Se..",
+    "year": 1998,
+    "runtime": 163,
+    "director": "Mani Ratnam",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "thriller"
+    ],
+    "moods": [
+      "heartbreaking",
+      "tense",
+      "epic"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.5,
+    "pitch": "A radio producer falls obsessively for a mysterious woman who turns out to be a suicide bomber.",
+    "why": "an unsettling love story wrapped in A.R. Rahman's best score",
+    "trailerId": "5C-8ScWuquw",
+    "accent": "#7a1f3d"
+  },
+  {
+    "id": "satya",
+    "title": "Satya",
+    "year": 1998,
+    "runtime": 160,
+    "director": "Ram Gopal Varma",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "moods": [
+      "tense",
+      "dark",
+      "heartbreaking"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A nameless migrant drifts into Mumbai's underworld and rises fast through its gang wars.",
+    "why": "the gritty template every Bollywood gangster film since has copied",
+    "trailerId": "xUaDqC5MEZA",
+    "accent": "#2e2e2e"
+  },
+  {
+    "id": "kuch-kuch-hota-hai",
+    "title": "Kuch Kuch Hota Hai",
+    "year": 1998,
+    "runtime": 184,
+    "director": "Karan Johar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "comedy"
+    ],
+    "moods": [
+      "romantic",
+      "heartbreaking",
+      "cozy"
+    ],
+    "situations": [
+      "date-night",
+      "family",
+      "friends",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.5,
+    "pitch": "A college best-friendship curdles into unspoken love, resolved years later by a dead mother's letters.",
+    "why": "tissue-ready nostalgia with an all-timer soundtrack",
+    "trailerId": "pGnkWAB6_KU",
+    "accent": "#c14c3a"
+  },
+  {
+    "id": "1942-a-love-story",
+    "title": "1942: A Love Story",
+    "year": 1994,
+    "runtime": 157,
+    "director": "Vidhu Vinod Chopra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "war"
+    ],
+    "moods": [
+      "romantic",
+      "epic",
+      "tense"
+    ],
+    "situations": [
+      "date-night",
+      "family",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.7,
+    "pitch": "During the freedom movement, a British officer's daughter falls for the son of a loyalist landlord.",
+    "why": "a sweeping period romance carried by R.D. Burman's final score",
+    "trailerId": "aDXubcMwqJo",
+    "accent": "#4a6b4f"
+  },
+  {
+    "id": "border",
+    "title": "Border",
+    "year": 1997,
+    "runtime": 175,
+    "director": "J.P. Dutta",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "war",
+      "action",
+      "drama"
+    ],
+    "moods": [
+      "epic",
+      "adrenaline",
+      "heartbreaking"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "1990s",
+    "trueStory": true,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.4,
+    "pitch": "Outnumbered Indian soldiers hold a desert post against a tank assault during the 1971 war.",
+    "why": "a patriotic war epic built on a real last-stand battle",
+    "trailerId": "3cgGSU86JEY",
+    "accent": "#5a5236"
+  },
+  {
+    "id": "baazigar",
+    "title": "Baazigar",
+    "year": 1993,
+    "runtime": 160,
+    "director": "Abbas-Mustan",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "romance",
+      "crime"
+    ],
+    "moods": [
+      "tense",
+      "dark",
+      "romantic"
+    ],
+    "situations": [
+      "date-night",
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "1990s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.0,
+    "pitch": "A charming suitor courts a businessman's daughter while secretly plotting his family's ruin.",
+    "why": "the twist that made Shah Rukh Khan a believable villain",
+    "trailerId": "cUHb8iYKqGM",
+    "accent": "#8a1f2b"
+  },
+  {
+    "id": "lagaan",
+    "title": "Lagaan",
+    "year": 2001,
+    "runtime": 224,
+    "director": "Ashutosh Gowariker",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "sports",
+      "drama",
+      "musical"
+    ],
+    "moods": [
+      "uplifting",
+      "epic",
+      "adrenaline"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 2,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "Drought-stricken villagers wager a cricket match against British officers to escape a crushing tax.",
+    "why": "an underdog sports epic with real stakes and real heart",
+    "trailerId": "Nhi4Azs2nEw",
+    "accent": "#7a8a3f"
+  },
+  {
+    "id": "dil-chahta-hai",
+    "title": "Dil Chahta Hai",
+    "year": 2001,
+    "runtime": 183,
+    "director": "Farhan Akhtar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "romance",
+      "comedy"
+    ],
+    "moods": [
+      "uplifting",
+      "romantic",
+      "funny"
+    ],
+    "situations": [
+      "friends",
+      "date-night",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "Three inseparable college friends drift toward adulthood, love, and one painful falling-out.",
+    "why": "the film that made modern urban friendship stories cool",
+    "trailerId": "OBAcYSSUf6o",
+    "accent": "#2f6b8f"
+  },
+  {
+    "id": "devdas",
+    "title": "Devdas",
+    "year": 2002,
+    "runtime": 185,
+    "director": "Sanjay Leela Bhansali",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "musical"
+    ],
+    "moods": [
+      "heartbreaking",
+      "epic",
+      "romantic"
+    ],
+    "situations": [
+      "date-night",
+      "solo",
+      "family"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.3,
+    "pitch": "Forbidden from marrying his childhood love, a wealthy heir drinks himself toward a tragic end.",
+    "why": "opulent heartbreak dressed in the most lavish sets ever built",
+    "trailerId": "8tuHQWGMQwY",
+    "accent": "#7a1414"
+  },
+  {
+    "id": "kal-ho-naa-ho",
+    "title": "Kal Ho Naa Ho",
+    "year": 2003,
+    "runtime": 186,
+    "director": "Nikkhil Advani",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "comedy"
+    ],
+    "moods": [
+      "romantic",
+      "heartbreaking",
+      "funny"
+    ],
+    "situations": [
+      "date-night",
+      "family",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 3,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.6,
+    "pitch": "A dying man secretly engineers a romance between his neighbor and his own best friend before he goes.",
+    "why": "guaranteed tears wrapped in a bright New York rom-com",
+    "trailerId": "sssNBI7p_dE",
+    "accent": "#c4762e"
+  },
+  {
+    "id": "munna-bhai-mbbs",
+    "title": "Munna Bhai M.B.B.S.",
+    "year": 2003,
+    "runtime": 156,
+    "director": "Rajkumar Hirani",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "funny",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "background",
+      "solo",
+      "date-night"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.1,
+    "pitch": "A lovable gangster fakes his way into medical college to please his father, and ends up healing patients his own way.",
+    "why": "pure comfort comedy with an unexpectedly big heart",
+    "trailerId": "SVDPyZnP3cQ",
+    "accent": "#3f7a5a"
+  },
+  {
+    "id": "swades",
+    "title": "Swades",
+    "year": 2004,
+    "runtime": 210,
+    "director": "Ashutosh Gowariker",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "uplifting",
+      "thought-provoking",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 2,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "A NASA scientist visits his childhood nanny in rural India and gets pulled into fixing her broken village.",
+    "why": "a quiet, patriotic film about choosing home over comfort",
+    "trailerId": "vc7AZNWvs0M",
+    "accent": "#a67c3a"
+  },
+  {
+    "id": "black-friday",
+    "title": "Black Friday",
+    "year": 2004,
+    "runtime": 143,
+    "director": "Anurag Kashyap",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "moods": [
+      "tense",
+      "dark",
+      "thought-provoking"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "high",
+    "intensity": 4,
+    "era": "2000s",
+    "trueStory": true,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.5,
+    "pitch": "A procedural reconstruction of the 1993 Bombay bombings, from planning to manhunt to trial.",
+    "why": "a clinical, unflinching true-crime procedural done right",
+    "trailerId": "lnZ0O2IP4Uo",
+    "accent": "#333333"
+  },
+  {
+    "id": "rang-de-basanti",
+    "title": "Rang De Basanti",
+    "year": 2006,
+    "runtime": 167,
+    "director": "Rakeysh Omprakash Mehra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "uplifting",
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "situations": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "A documentary about freedom fighters awakens a group of aimless college friends into real-world rebellion.",
+    "why": "the film that turns youthful apathy into righteous anger",
+    "trailerId": "QHhnhqxB4E8",
+    "accent": "#d4972e"
+  },
+  {
+    "id": "omkara",
+    "title": "Omkara",
+    "year": 2006,
+    "runtime": 155,
+    "director": "Vishal Bhardwaj",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "moods": [
+      "dark",
+      "tense",
+      "heartbreaking"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.1,
+    "pitch": "A rural political enforcer's jealousy over his new bride is stoked by a scheming aide, with fatal results.",
+    "why": "Shakespeare's Othello reborn in Uttar Pradesh's badlands",
+    "trailerId": "Hp697cTAIMU",
+    "accent": "#5a2e1a"
+  },
+  {
+    "id": "taare-zameen-par",
+    "title": "Taare Zameen Par",
+    "year": 2007,
+    "runtime": 165,
+    "director": "Aamir Khan",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "family"
+    ],
+    "moods": [
+      "heartbreaking",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "solo",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.4,
+    "pitch": "A dyslexic boy written off as lazy finally meets a teacher who sees what he's actually capable of.",
+    "why": "the family film that makes every parent quietly reconsider",
+    "trailerId": "LGGiTXLzoho",
+    "accent": "#3f8fa8"
+  },
+  {
+    "id": "jab-we-met",
+    "title": "Jab We Met",
+    "year": 2007,
+    "runtime": 138,
+    "director": "Imtiaz Ali",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "comedy"
+    ],
+    "moods": [
+      "romantic",
+      "uplifting",
+      "funny"
+    ],
+    "situations": [
+      "date-night",
+      "solo",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.9,
+    "pitch": "A suicidal businessman gets stranded with a chatty runaway who accidentally teaches him to live again.",
+    "why": "the rom-com every Bollywood couple still quotes",
+    "trailerId": "BFzT-hQDreM",
+    "accent": "#e0a63a"
+  },
+  {
+    "id": "a-wednesday",
+    "title": "A Wednesday",
+    "year": 2008,
+    "runtime": 104,
+    "director": "Neeraj Pandey",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "crime"
+    ],
+    "moods": [
+      "tense",
+      "thought-provoking",
+      "dark"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "An anonymous caller threatens Mumbai with bombs unless the police free four terror suspects by evening.",
+    "why": "a lean, tense thriller with a gut-punch of an ending",
+    "trailerId": "L_z2kKT1hNY",
+    "accent": "#4a4a4a"
+  },
+  {
+    "id": "dev-d",
+    "title": "Dev D",
+    "year": 2009,
+    "runtime": 144,
+    "director": "Anurag Kashyap",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "moods": [
+      "dark",
+      "heartbreaking",
+      "romantic"
+    ],
+    "situations": [
+      "solo"
+    ],
+    "effort": "high",
+    "intensity": 4,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.9,
+    "pitch": "A jealous rich boy spirals into drugs and self-destruction after wrongly doubting his girlfriend's honor.",
+    "why": "a punk-rock reinvention of the classic Devdas tragedy",
+    "trailerId": "ATZB8mwU3M0",
+    "accent": "#8a2e5a"
+  },
+  {
+    "id": "3-idiots",
+    "title": "3 Idiots",
+    "year": 2009,
+    "runtime": 170,
+    "director": "Rajkumar Hirani",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "funny",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "friends",
+      "family",
+      "background",
+      "solo",
+      "date-night"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2000s",
+    "trueStory": false,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.4,
+    "pitch": "Three engineering students rebel against a soul-crushing grades-obsessed system, then reunite years later.",
+    "why": "crowd-pleasing comedy with an actual point about ambition",
+    "trailerId": "xvszmNXdM4w",
+    "accent": "#2e8a6b"
+  },
+  {
+    "id": "znmd",
+    "title": "Zindagi Na Milegi Dobara",
+    "year": 2011,
+    "runtime": 153,
+    "director": "Zoya Akhtar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama",
+      "adventure"
+    ],
+    "moods": [
+      "uplifting",
+      "epic",
+      "funny"
+    ],
+    "situations": [
+      "friends",
+      "solo",
+      "date-night",
+      "family"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.2,
+    "pitch": "Three childhood friends take a bachelor road trip through Spain that forces each to confront a fear.",
+    "why": "the ultimate friends-trip movie, equal parts fun and feeling",
+    "trailerId": "ifIBOKCfjVs",
+    "accent": "#2e9fc4"
+  },
+  {
+    "id": "gangs-of-wasseypur",
+    "title": "Gangs of Wasseypur",
+    "year": 2012,
+    "runtime": 321,
+    "director": "Anurag Kashyap",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "moods": [
+      "dark",
+      "epic",
+      "tense"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "high",
+    "intensity": 5,
+    "era": "2010s",
+    "trueStory": true,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A three-generation coal-mafia blood feud rages across Bihar's badlands from independence to the 2000s.",
+    "why": "a sprawling, brutal crime saga with a soundtrack to match",
+    "trailerId": "9ZpPQdrHfl8",
+    "accent": "#4a3a2e"
+  },
+  {
+    "id": "kahaani",
+    "title": "Kahaani",
+    "year": 2012,
+    "runtime": 122,
+    "director": "Sujoy Ghosh",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "moods": [
+      "tense",
+      "mind-bending",
+      "dark"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.1,
+    "pitch": "A pregnant woman searches Kolkata for her missing husband and uncovers a conspiracy tied to a 1984 gas leak.",
+    "why": "a razor-sharp thriller with a genuinely great twist",
+    "trailerId": "dLm3I8Pc0iA",
+    "accent": "#7a2e4a"
+  },
+  {
+    "id": "barfi",
+    "title": "Barfi!",
+    "year": 2012,
+    "runtime": 151,
+    "director": "Anurag Basu",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "heartbreaking",
+      "uplifting",
+      "funny"
+    ],
+    "situations": [
+      "family",
+      "date-night",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "A deaf-mute man's silent-film-style charm wins two very different women across a decades-spanning story.",
+    "why": "visually inventive charm with a properly moving ending",
+    "trailerId": "fDpjzEKJjsM",
+    "accent": "#c4a83a"
+  },
+  {
+    "id": "queen",
+    "title": "Queen",
+    "year": 2014,
+    "runtime": 146,
+    "director": "Vikas Bahl",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "uplifting",
+      "funny",
+      "cozy"
+    ],
+    "situations": [
+      "solo",
+      "friends",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "Dumped days before her wedding, a sheltered Delhi bride takes her honeymoon to Europe alone anyway.",
+    "why": "a joyful solo-travel awakening with zero cynicism",
+    "trailerId": "M_HP8xgXhBU",
+    "accent": "#e0537a"
+  },
+  {
+    "id": "highway",
+    "title": "Highway",
+    "year": 2014,
+    "runtime": 132,
+    "director": "Imtiaz Ali",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "moods": [
+      "thought-provoking",
+      "heartbreaking",
+      "tense"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.3,
+    "pitch": "A bride-to-be kidnapped days before her wedding finds unexpected freedom on the road with her captor.",
+    "why": "a strange, hypnotic road movie about wanting to disappear",
+    "trailerId": "LSrDD52bx4A",
+    "accent": "#3a6b7a"
+  },
+  {
+    "id": "pk",
+    "title": "PK",
+    "year": 2014,
+    "runtime": 153,
+    "director": "Rajkumar Hirani",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama",
+      "sci-fi"
+    ],
+    "moods": [
+      "funny",
+      "thought-provoking",
+      "uplifting"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "solo",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "An alien stranded on Earth innocently questions every religious ritual he's told to blindly follow.",
+    "why": "a satire on faith disguised as an easy crowd-pleaser",
+    "trailerId": "C5sycsuK7LI",
+    "accent": "#d4762e"
+  },
+  {
+    "id": "masaan",
+    "title": "Masaan",
+    "year": 2015,
+    "runtime": 109,
+    "director": "Neeraj Ghaywan",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "situations": [
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.1,
+    "pitch": "On the ghats of Varanasi, a shamed young woman and a lower-caste boy each search for a way out.",
+    "why": "a quietly devastating indie about caste, shame, and grief",
+    "trailerId": "SKJfBo3xMW0",
+    "accent": "#5a4a3a"
+  },
+  {
+    "id": "piku",
+    "title": "Piku",
+    "year": 2015,
+    "runtime": 125,
+    "director": "Shoojit Sircar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "funny",
+      "cozy",
+      "heartbreaking"
+    ],
+    "situations": [
+      "family",
+      "background",
+      "solo",
+      "date-night"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.6,
+    "pitch": "An exasperated daughter drives her constipation-obsessed elderly father cross-country on a whim.",
+    "why": "the funniest, gentlest film ever made about a difficult parent",
+    "trailerId": "oeiKUlUUNQ8",
+    "accent": "#a6862e"
+  },
+  {
+    "id": "talvar",
+    "title": "Talvar",
+    "year": 2015,
+    "runtime": 132,
+    "director": "Meghna Gulzar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "crime",
+      "thriller",
+      "drama"
+    ],
+    "moods": [
+      "tense",
+      "thought-provoking",
+      "dark"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": true,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.3,
+    "pitch": "Three competing investigations into a teenager's murder each arrive at a different, contradictory truth.",
+    "why": "a real unsolved case told from every angle, no easy answers",
+    "trailerId": "aQNMsw8Ljjc",
+    "accent": "#3a3a4a"
+  },
+  {
+    "id": "drishyam",
+    "title": "Drishyam",
+    "year": 2015,
+    "runtime": 163,
+    "director": "Nishikant Kamat",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "crime",
+      "drama"
+    ],
+    "moods": [
+      "tense",
+      "mind-bending",
+      "heartbreaking"
+    ],
+    "situations": [
+      "family",
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A cable-TV operator must outthink a police IG to cover up his family's accidental killing of her son.",
+    "why": "a meticulous cat-and-mouse thriller that rewards close attention",
+    "trailerId": "64xJLmcA2K8",
+    "accent": "#2e4a5a"
+  },
+  {
+    "id": "bajrangi-bhaijaan",
+    "title": "Bajrangi Bhaijaan",
+    "year": 2015,
+    "runtime": 163,
+    "director": "Kabir Khan",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "comedy",
+      "family"
+    ],
+    "moods": [
+      "uplifting",
+      "heartbreaking",
+      "funny"
+    ],
+    "situations": [
+      "family",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.1,
+    "pitch": "A devout Hindu man treks across the border to reunite a lost, mute Pakistani girl with her family.",
+    "why": "a big-hearted family film about kindness across borders",
+    "trailerId": "4nwAra0mz_Q",
+    "accent": "#e0842e"
+  },
+  {
+    "id": "dangal",
+    "title": "Dangal",
+    "year": 2016,
+    "runtime": 161,
+    "director": "Nitesh Tiwari",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "sports",
+      "drama",
+      "biopic"
+    ],
+    "moods": [
+      "uplifting",
+      "epic",
+      "adrenaline"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": true,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 8.3,
+    "pitch": "A failed wrestler trains his daughters to become India's first world-class female wrestlers.",
+    "why": "a real underdog sports story that earns every triumphant beat",
+    "trailerId": "BM-gr6PQO5w",
+    "accent": "#a67c2e"
+  },
+  {
+    "id": "pink",
+    "title": "Pink",
+    "year": 2016,
+    "runtime": 136,
+    "director": "Aniruddha Roy Chowdhury",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "thriller"
+    ],
+    "moods": [
+      "tense",
+      "thought-provoking",
+      "heartbreaking"
+    ],
+    "situations": [
+      "solo",
+      "friends",
+      "family"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.1,
+    "pitch": "Three independent women fight back in court after a violent night out is twisted into a scandal against them.",
+    "why": "a courtroom drama about consent that still lands hard",
+    "trailerId": "f8d32aXoB1M",
+    "accent": "#c4437a"
+  },
+  {
+    "id": "rockstar",
+    "title": "Rockstar",
+    "year": 2011,
+    "runtime": 159,
+    "director": "Imtiaz Ali",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama",
+      "musical"
+    ],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "epic"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.7,
+    "pitch": "A mediocre musician finds his voice only through heartbreak, and burns out chasing the pain that fuels it.",
+    "why": "A.R. Rahman's score turns raw heartbreak into pure catharsis",
+    "trailerId": "xPrroc6nR_g",
+    "accent": "#3a2e4a"
+  },
+  {
+    "id": "pari",
+    "title": "Pari",
+    "year": 2018,
+    "runtime": 136,
+    "director": "Prosit Roy",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "horror",
+      "drama"
+    ],
+    "moods": [
+      "scary",
+      "dark",
+      "tense"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 6.7,
+    "pitch": "A kind man takes in a feral woman rescued from a forest hut, unaware of the dark supernatural force inside her.",
+    "why": "a genuinely unsettling horror film that skips the jump-scare gimmicks",
+    "trailerId": "uKB_htkFomg",
+    "accent": "#2e2e3a"
+  },
+  {
+    "id": "newton",
+    "title": "Newton",
+    "year": 2017,
+    "runtime": 106,
+    "director": "Amit V. Masurkar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama",
+      "satire"
+    ],
+    "moods": [
+      "thought-provoking",
+      "funny"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.9,
+    "pitch": "An idealistic government clerk tries to run a free and fair election in a Maoist-controlled forest village.",
+    "why": "a deadpan satire on democracy that's sharper than it looks",
+    "trailerId": "yU6zMPFd4UU",
+    "accent": "#5a7a3a"
+  },
+  {
+    "id": "andhadhun",
+    "title": "Andhadhun",
+    "year": 2018,
+    "runtime": 139,
+    "director": "Sriram Raghavan",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "comedy",
+      "mystery"
+    ],
+    "moods": [
+      "tense",
+      "mind-bending",
+      "funny"
+    ],
+    "situations": [
+      "date-night",
+      "friends",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A blind pianist witnesses a murder he technically shouldn't have been able to see, and plays dumb.",
+    "why": "a devious black comedy-thriller with one of Bollywood's best twists",
+    "trailerId": "OCcYCvVYzJU",
+    "accent": "#2e2e42"
+  },
+  {
+    "id": "tumbbad",
+    "title": "Tumbbad",
+    "year": 2018,
+    "runtime": 118,
+    "director": "Rahi Anil Barve",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "horror",
+      "fantasy"
+    ],
+    "moods": [
+      "scary",
+      "dark",
+      "epic"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "A family's generations-long greed for a cursed god's gold awakens something monstrous in a forgotten village.",
+    "why": "gorgeously shot folk-horror unlike anything else in Hindi cinema",
+    "trailerId": "vVpNU7a8Tbc",
+    "accent": "#4a3320"
+  },
+  {
+    "id": "stree",
+    "title": "Stree",
+    "year": 2018,
+    "runtime": 125,
+    "director": "Amar Kaushik",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "horror",
+      "comedy"
+    ],
+    "moods": [
+      "scary",
+      "funny",
+      "tense"
+    ],
+    "situations": [
+      "friends",
+      "date-night",
+      "solo",
+      "family"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.5,
+    "pitch": "A small town's men start vanishing at night, taken by a legendary female spirit who only calls their names.",
+    "why": "horror-comedy that's actually scary and actually funny",
+    "trailerId": "gzeaGcLLl_A",
+    "accent": "#6b1f4a"
+  },
+  {
+    "id": "badhaai-ho",
+    "title": "Badhaai Ho",
+    "year": 2018,
+    "runtime": 124,
+    "director": "Amit Sharma",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "family",
+      "drama"
+    ],
+    "moods": [
+      "funny",
+      "cozy",
+      "heartbreaking"
+    ],
+    "situations": [
+      "family",
+      "background",
+      "friends",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.9,
+    "pitch": "A young man is mortified when his middle-aged parents announce an unplanned pregnancy.",
+    "why": "a taboo-poking family comedy that's warmer than it sounds",
+    "trailerId": "unAljCZMQYw",
+    "accent": "#d4a63a"
+  },
+  {
+    "id": "gully-boy",
+    "title": "Gully Boy",
+    "year": 2019,
+    "runtime": 154,
+    "director": "Zoya Akhtar",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "musical"
+    ],
+    "moods": [
+      "uplifting",
+      "epic",
+      "adrenaline"
+    ],
+    "situations": [
+      "friends",
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 2,
+    "era": "2010s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.9,
+    "pitch": "A Mumbai slum kid discovers rap as his one way out, and starts writing the streets into verse.",
+    "why": "a hip-hop underdog story with real Mumbai street energy",
+    "trailerId": "JfbxcD6biOk",
+    "accent": "#2e6b8a"
+  },
+  {
+    "id": "bulbbul",
+    "title": "Bulbbul",
+    "year": 2020,
+    "runtime": 94,
+    "director": "Anvita Dutt",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "horror",
+      "drama",
+      "fantasy"
+    ],
+    "moods": [
+      "scary",
+      "dark",
+      "tense"
+    ],
+    "situations": [
+      "solo",
+      "friends"
+    ],
+    "effort": "medium",
+    "intensity": 4,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.6,
+    "pitch": "A child bride grows into a vengeful spirit as a folk legend of a demon stalks her 19th-century village.",
+    "why": "gothic feminist horror with a genuinely gorgeous, eerie look",
+    "trailerId": "4MGReT9-cAg",
+    "accent": "#7a1f2e"
+  },
+  {
+    "id": "gehraiyaan",
+    "title": "Gehraiyaan",
+    "year": 2022,
+    "runtime": 143,
+    "director": "Shakun Batra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "romance",
+      "drama"
+    ],
+    "moods": [
+      "dark",
+      "thought-provoking",
+      "romantic"
+    ],
+    "situations": [
+      "solo",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 5.7,
+    "pitch": "An affair between cousins-in-law unravels years of buried family trauma and quiet resentment.",
+    "why": "an uncomfortably honest look at modern relationships unraveling",
+    "trailerId": "Yy8SKJygKD4",
+    "accent": "#2e4a5a"
+  },
+  {
+    "id": "jawan",
+    "title": "Jawan",
+    "year": 2023,
+    "runtime": 169,
+    "director": "Atlee",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "action",
+      "thriller"
+    ],
+    "moods": [
+      "adrenaline",
+      "epic",
+      "tense"
+    ],
+    "situations": [
+      "friends",
+      "family",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 4,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 7.0,
+    "pitch": "A prison warden secretly leads a vigilante crew of women avenging systemic failures the state ignores.",
+    "why": "maximalist mass-action filmmaking at full throttle",
+    "trailerId": "COv52Qyctws",
+    "accent": "#c4222e"
+  },
+  {
+    "id": "pathaan",
+    "title": "Pathaan",
+    "year": 2023,
+    "runtime": 146,
+    "director": "Siddharth Anand",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "action",
+      "thriller"
+    ],
+    "moods": [
+      "adrenaline",
+      "epic",
+      "tense"
+    ],
+    "situations": [
+      "friends",
+      "family",
+      "solo"
+    ],
+    "effort": "low",
+    "intensity": 3,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": true,
+    "imdb": 5.9,
+    "pitch": "A disavowed spy comes out of hiding to stop a rogue ex-agent from unleashing a bioweapon on India.",
+    "why": "a glossy spy-actioner built for pure big-screen spectacle",
+    "trailerId": "vqu4z34wENw",
+    "accent": "#2e3a5a"
+  },
+  {
+    "id": "12th-fail",
+    "title": "12th Fail",
+    "year": 2023,
+    "runtime": 147,
+    "director": "Vidhu Vinod Chopra",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "drama",
+      "biopic"
+    ],
+    "moods": [
+      "uplifting",
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "situations": [
+      "solo",
+      "family",
+      "friends"
+    ],
+    "effort": "low",
+    "intensity": 2,
+    "era": "2020s",
+    "trueStory": true,
+    "bookAdaptation": true,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.9,
+    "pitch": "A failed student from a poor Chambal village claws his way to becoming a real IPS officer.",
+    "why": "a real success story that earns its tears without manipulation",
+    "trailerId": "KjbtuqENvVE",
+    "accent": "#6b8a3a"
+  },
+  {
+    "id": "darlings",
+    "title": "Darlings",
+    "year": 2022,
+    "runtime": 133,
+    "director": "Jasmeet K. Reen",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama",
+      "thriller"
+    ],
+    "moods": [
+      "dark",
+      "funny",
+      "tense"
+    ],
+    "situations": [
+      "solo",
+      "friends",
+      "date-night"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 7.2,
+    "pitch": "A woman and her mother plot darkly comic revenge against her abusive, drunk husband.",
+    "why": "pitch-black domestic-abuse comedy that never loses its nerve",
+    "trailerId": "xbBmpNQBDCE",
+    "accent": "#4a2e5a"
+  },
+  {
+    "id": "laapataa-ladies",
+    "title": "Laapataa Ladies",
+    "year": 2023,
+    "runtime": 122,
+    "director": "Kiran Rao",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "comedy",
+      "drama",
+      "satire"
+    ],
+    "moods": [
+      "funny",
+      "uplifting",
+      "cozy"
+    ],
+    "situations": [
+      "family",
+      "friends",
+      "solo",
+      "date-night",
+      "background"
+    ],
+    "effort": "low",
+    "intensity": 1,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.0,
+    "pitch": "Two veiled brides get accidentally swapped on a train, exposing very different truths about their marriages.",
+    "why": "a gentle, sharp satire on rural gender norms with a big heart",
+    "trailerId": "sm8t7aW5_4s",
+    "accent": "#d4762e"
+  },
+  {
+    "id": "drishyam-2",
+    "title": "Drishyam 2",
+    "year": 2022,
+    "runtime": 140,
+    "director": "Abhishek Pathak",
+    "country": "India",
+    "language": "Hindi",
+    "genres": [
+      "thriller",
+      "crime",
+      "drama"
+    ],
+    "moods": [
+      "tense",
+      "mind-bending",
+      "dark"
+    ],
+    "situations": [
+      "family",
+      "solo"
+    ],
+    "effort": "medium",
+    "intensity": 3,
+    "era": "2020s",
+    "trueStory": false,
+    "bookAdaptation": false,
+    "animated": false,
+    "subtitles": false,
+    "musical": false,
+    "imdb": 8.2,
+    "pitch": "Seven years after covering up a murder, a family man faces a police officer determined to reopen the case.",
+    "why": "a worthy sequel that raises the stakes on the original's puzzle",
+    "trailerId": "tOdJlNKquls",
+    "accent": "#2e3a4a"
+  }
+]
