@@ -167,10 +167,17 @@ const ALL_QUESTIONS = [
 /* ── state ── */
 const state = {
   answers: {}, step: 0, movies: [], deck: [], index: 0,
-  shortlist: [], relaxed: [], library: 'all', questions: []
+  shortlist: [], relaxed: [], library: 'all', indianLanguage: null, questions: []
 };
 
-const LIB_NAME = { all: 'the whole shelf', world: 'Hollywood & world cinema', bollywood: 'Bollywood' };
+const LIB_NAME = {
+  all: 'the whole shelf',
+  hollywood: 'Hollywood',
+  indian: 'Indian cinema',
+  anime: 'Anime',
+  korean: 'Korean cinema',
+  world: 'World cinema'
+};
 
 function inLibrary(m) {
   return state.library === 'all' || m.library === state.library;
@@ -185,12 +192,12 @@ function questionsFor(lib) {
 /* ── data ── */
 async function loadMovies() {
   const [world, bolly] = await Promise.all([
-    fetch('data/movies.json').then(r => (r.ok ? r.json() : Promise.reject(new Error('world library')))),
-    fetch('data/bollywood.json').then(r => (r.ok ? r.json() : []))
+    fetch('/api/movies').then(r => (r.ok ? r.json() : Promise.reject(new Error('world library')))),
+    fetch('/api/bollywood').then(r => (r.ok ? r.json() : []))
   ]);
   state.movies = [
     ...world.map(m => ({ ...m, library: 'world' })),
-    ...bolly.map(m => ({ ...m, library: 'bollywood' }))
+    ...bolly.map(m => ({ ...m, library: 'indian' }))
   ];
   const n = k => state.movies.filter(m => k === 'all' || m.library === k).length;
   $('[data-movie-count]').textContent = state.movies.length;
@@ -202,6 +209,23 @@ async function loadMovies() {
       renderStubs();
     })
   );
+
+  $$('[data-indian-language]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.indianLanguage = btn.dataset.indianLanguage;
+
+    $$('[data-indian-language]').forEach(b =>
+      b.classList.toggle('is-on', b === btn)
+    );
+  });
+});
+
+$$('[data-library="indian"]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const picker = $('#indian-language-pick');
+    if (picker) picker.style.display = 'block';
+  });
+});
   renderStubs();
 }
 
